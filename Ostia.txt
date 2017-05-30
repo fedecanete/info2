@@ -1,0 +1,15 @@
+Use Git from Git Bash only
+
+git config --global user.name "usuario"
+git config --globl user.email "<mail@mail>"
+git init
+git clone https://github.com/fedecanete/info2.git
+
+copia algun archivo al repositorio
+
+git add main.c
+git commit
+
+git remote origin  https://github.com/fedecanete/info2.git
+
+git push origin master
