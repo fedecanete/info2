@@ -26,25 +26,25 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: 0-TPORiego.axf
+all: 0-TPORiegoGit.axf
 
 # Tool invocations
-0-TPORiego.axf: $(OBJS) $(USER_OBJS)
+0-TPORiegoGit.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiego.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiego.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) 0-TPORiego.axf
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) 0-TPORiegoGit.axf
 	-@echo ' '
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size "0-TPORiego.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiego.axf" "0-TPORiego.bin" ; # checksum -p LPC1769 -d "0-TPORiego.bin";
+	-arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents
