@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;0-TPORiego&apos; to &apos;0-TPORiegoGit&apos;" description="Rename resource &apos;0-TPORiego&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/0-TPORiego" name="0-TPORiegoGit" stamp="1510002063532" updateReferences="true"/>
+</session>
