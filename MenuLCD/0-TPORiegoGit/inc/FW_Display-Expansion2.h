@@ -1,6 +1,6 @@
 /**
- 	\file KitInfo2.h
- 	\brief Configuracion de Infotronic
+ 	\file Display-Expansion2.h
+ 	\brief Configuracion del display
  	\author Ing. Marcelo Trujillo
  	\date 2012.04.25
 */

@@ -1,5 +1,5 @@
 /**
- 	\file KitInfo2FW_7Seg.c
+ 	\file FW_7Seg.c
  	\brief Drivers del display de 7 segmentos
  	\details Expansion 2
  	\author Ing. Marcelo Trujillo

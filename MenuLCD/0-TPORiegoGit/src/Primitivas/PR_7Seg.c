@@ -1,5 +1,5 @@
 /**
- 	\file KitInfo2PR_7Seg.c
+ 	\file PR_7Seg.c
  	\brief Primitiva de Display de 7 segmentos
  	\details Valida para Expansion 2 y Expansion 3
  	\author Ing. Marcelo Trujillo

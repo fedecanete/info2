@@ -1,5 +1,5 @@
  /**
- * Regs.h
+ * RegsLPC1769.h
  *
  *  Created on: 17/04/2012 -   Author: Mica y Chor
  *  modificado el 12/03/13 -   Author: Marcelo T. y G.

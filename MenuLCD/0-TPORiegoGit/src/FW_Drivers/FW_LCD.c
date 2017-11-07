@@ -72,7 +72,7 @@ void WDato (uint8_t dato)
 }
 
 void LCD_Menu (void) {
-	WComando8(LCD_CLEAR);
+	WComando8(LCD_CLEAR);			/*Borra el LCD y posiciona al cursor en el inicio*/
 	WDato (0x7E); 					//Escribe "->"
 	Escribir ((char*) "Tierra");
 	WDato (0x7E);
@@ -85,7 +85,7 @@ void LCD_Menu (void) {
 }
 
 void LCD_Tierra (void) {
-	WComando8(LCD_CLEAR);
+	WComando8(LCD_CLEAR);			/*Borra el LCD y posiciona al cursor en el inicio*/
 	Escribir ("Humedad:");
 	WComando8 (LCD_1POS10);
 	WDato('%');
@@ -96,7 +96,7 @@ void LCD_Tierra (void) {
 }
 
 void LCD_Ambiente (void) {
-	WComando8(LCD_CLEAR);
+	WComando8(LCD_CLEAR);			/*Borra el LCD y posiciona al cursor en el inicio*/
 	Escribir ((char *) "Temperatura:");
 	WComando8 (LCD_1POS14);
 	WDato (0xD2);
@@ -111,7 +111,7 @@ void LCD_Ambiente (void) {
 }
 
 void LCD_Settings (void) {
-	WComando8(LCD_CLEAR);
+	WComando8(LCD_CLEAR);			/*Borra el LCD y posiciona al cursor en el inicio*/
 	Escribir ((char*) "Config.:  ");
 	WDato (0x7E);
 	Escribir ((char*) "Riego");
@@ -123,7 +123,7 @@ void LCD_Settings (void) {
 	WComando8(FLECHA_ATRAS);
 }
 void LCD_RiegoC (void) {
-	WComando8(LCD_CLEAR);
+	WComando8(LCD_CLEAR);		/*Borra el LCD y posiciona al cursor en el inicio*/
 	Escribir ((char *) "Hum. Critica:");
 	WComando8(LCD_1POS15);
 	WDato('%');
@@ -136,7 +136,7 @@ void LCD_RiegoC (void) {
 }
 
 void LCD_HorasAutC (void) {
-	WComando8(LCD_CLEAR);
+	WComando8(LCD_CLEAR);			/*Borra el LCD y posiciona al cursor en el inicio*/
 	Escribir ((char*) "1 2 3 4 5 6 7 8");
 	WComando8(LCD_2POS10);
 	WDato (0x7E);
@@ -144,7 +144,7 @@ void LCD_HorasAutC (void) {
 	WComando8(FLECHA_ATRAS);
 }
 void LCD_HoraFechaC (void) {
-	WComando8(LCD_CLEAR);
+	WComando8(LCD_CLEAR);			/*Borra el LCD y posiciona al cursor en el inicio*/
 	Escribir ((char*) "Fecha:");
 	WComando8 (LCD_1POS8);
 	WDato ('/');
@@ -161,7 +161,7 @@ void LCD_HoraFechaC (void) {
 }
 
 void LCD_HoraRiegoC (void) {
-	WComando8(LCD_CLEAR);
+	WComando8(LCD_CLEAR);			/*Borra el LCD y posiciona al cursor en el inicio*/
 	Escribir ((char*) "Hora:");
 	WComando8 (LCD_1POS7);
 	WDato (':');
@@ -175,26 +175,42 @@ void LCD_HoraRiegoC (void) {
 	WComando8(FLECHA_ATRAS);
 }
 
+/**
+*	\fn void ActualizarTierra (uint8_t Hum_t)
+*	\brief Actualiza la humedad mostrada en Pantalla_Tierra.
+*	\author Lucas
+*	\date 07.11.2017
+*	\param Hum_t Recibe el valor registrado por el HL-69.
+*/
 
 void ActualizarTierra (uint8_t Hum_t){
-	WComando8(LCD_CURSOROFF);
-	WComando8(LCD_1POS8);
-	WDato(Hum_t/10+48);
-	WDato(Hum_t%10+48);
-	WComando8(FLECHA_ATRAS);
-	WComando8(BLINK_ON);
+	WComando8(LCD_CURSOROFF);	/**Apago el parpadeo del cursor*/
+	WComando8(LCD_1POS8); 		/**Posiciona al cursor en renglón 1 posición 8*/
+	WDato(Hum_t/10+48);			/**Escribe la decena de Hum_t convirtiéndola a ascii*/
+	WDato(Hum_t%10+48);			/**Escribe la unidad de Hum_t convirtiéndola a ascii*/
+	WComando8(FLECHA_ATRAS);	/**Posiciona al cursor en la opción de volver a la pantalla anterior*/
+	WComando8(BLINK_ON);		/**Parpadeo del cursor*/
 }
 
+/**
+*	\fn void ActualizarAmbiente (uint8_t Temp, uint8_t Hum_a){
+*	\brief Actualiza humedad y temperatura mostradas en Pantalla_Ambiente.
+*	\author Lucas
+*	\date 07.11.2017
+*	\param Hum_a Recibe el valor de humedad registrado por el DTH11.
+*	\param Temp Recibe el valor de temperatura registrado por el DTH11.
+*/
+
 void ActualizarAmbiente (uint8_t Temp, uint8_t Hum_a){
-	WComando8(LCD_CURSOROFF);
-	WComando8(LCD_1POS12);
-	WDato(Temp/10+48);
-	WDato(Temp%10+48);
-	WComando8(LCD_2POS7);
-	WDato(Hum_a/10+48);
-	WDato(Hum_a%10+48);
-	WComando8(FLECHA_ATRAS);
-	WComando8(BLINK_ON);
+	WComando8(LCD_CURSOROFF);	/**Apago el parpadeo del cursor*/
+	WComando8(LCD_1POS12);		/**Posiciona al cursor en renglón 1 posición 12*/
+	WDato(Temp/10+48);			/**Escribe la decena de Temp convirtiéndola a ascii*/
+	WDato(Temp%10+48);			/**Escribe la unidad de Temp convirtiéndola a ascii*/
+	WComando8(LCD_2POS7);		/**Posiciona al cursor en renglón 2 posición 7*/
+	WDato(Hum_a/10+48);			/**Escribe la decena de Hum_a convirtiéndola a ascii*/
+	WDato(Hum_a%10+48);			/**Escribe la unidad de Hum_a convirtiéndola a ascii*/
+	WComando8(FLECHA_ATRAS);	/**Posiciona al cursor en la opción de volver a la pantalla anterior*/
+	WComando8(BLINK_ON);		/**Parpadeo del cursor*/
 }
 
 const uint8_t Array_PMenu[]=			{FLECHA_TIERRA,FLECHA_AMBIENTE,FLECHA_SETTINGS};

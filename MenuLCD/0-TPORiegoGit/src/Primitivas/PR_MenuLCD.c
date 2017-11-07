@@ -1,39 +1,59 @@
-/*
- * PR_LCD.c
- *
- *  Created on: 16 de oct. de 2017
- *      Author: Lucas
+/**
+ * \file PR_MenuLCD.c
+ * \brief Primitiva del LCD
  */
+
+/*!
+*	\fn Menu_LCD (uint8_t TeclaPulsada, uint8_t Temperatura, uint8_t Humedad_A, uint8_t Humedad_T)
+*	\brief Función que permite utilizar el LCD a modo de menú.
+*	\details Esta función recoge los datos de humedad y temperatura para mostrarlos en un LCD de
+*				manera interactiva mediante diferentes pantallas (escrituras) en el LCD, las
+*				cuales pueden ser recorridas mediante las teclas pulsadas en el teclado 5x1.
+*				Además se permite la configuración de horas automáticas de riego, de la hora, la
+*				fecha y valores críticos.
+*	\author Lucas
+*	\date 07.11.2017
+*	\param TeclaPulsada Nos dice la tecla que fue pulsada.
+*	\param Temperatura Nos da el valor de temperatura que registra el módulo DTH11.
+*	\param Humedad_A Nos da el valor de humedad que registra el módulo DTH11 (ambiental).
+*	\param Humedad_T Valor de humedad registrada en la tierra por el módulo HL-69.
+*/
 
 #include "Aplicacion.h"
 
 void Menu_LCD (uint8_t TeclaPulsada, uint8_t Temperatura, uint8_t Humedad_A, uint8_t Humedad_T) {
 
-	static uint8_t Pantalla=Pantalla_Menu;
-	static uint8_t PantallaAnt=Pantalla_Menu;
-	static uint8_t PosCursor=FLECHA_TIERRA;
-	static uint8_t HumedadAAnt=0;
-	static uint8_t TemperaturaAnt=0;
-	static uint8_t HumedadTAnt=0;
+	static uint8_t Pantalla=Pantalla_Menu;		// Contiene la pantalla actual
+	static uint8_t PantallaAnt=Pantalla_Menu; 	// Contiene la pantalla anterior
+	static uint8_t PosCursor=FLECHA_TIERRA; 	// Contiene el comando para darle una posición al cursor del LCD
+	static uint8_t HumedadAAnt=0; 				// Contiene la humedad registrada anteriormente a Humedad_A
+	static uint8_t TemperaturaAnt=0; 			// Contiene la temperatura registrada anteriormente a Temperatura
+	static uint8_t HumedadTAnt=0; 				// Contiene la humedad registrada anteriormente a Humedad_T
 
 	//if (PantallaAnt==Pantalla_Menu) -->Actualizacion de Hora/Fecha, RTC, o lo que sea
+
+	//Si permanezco en Pantalla_Tierra y cambió Humedad_T:
 	if (PantallaAnt==Pantalla_Tierra && HumedadTAnt!=Humedad_T) {
 		ActualizarTierra (Humedad_T);
-		HumedadTAnt=Humedad_T;
+		HumedadTAnt=Humedad_T; //Actualizo estas variables para no caer siempre en este if
 	}
 
+	//Si permanezco en Pantalla_Ambiente y cambiaron los registros de temperatura o humedad:
 	if (PantallaAnt==Pantalla_Ambiente && (TemperaturaAnt!=Temperatura || HumedadAAnt!=Humedad_A)) {
 		ActualizarAmbiente (Temperatura, Humedad_A);
 		TemperaturaAnt=Temperatura;
 		HumedadAAnt=Humedad_A;
 	}
 
+	/* Si una tecla es pulsada o si hubo un cambio de pantalla:
+	 * Utilizo la pantalla actual para proceder con el menú
+	*/
 	if ((TeclaPulsada != NO_KEY) || (Pantalla != PantallaAnt)) {
 
 		switch (Pantalla) {
 
 			case Pantalla_Menu:
-				if (Pantalla != PantallaAnt) {
+				if (Pantalla != PantallaAnt) {	//Si había otra pantalla anteriormente entra a este if
 					LCD_Menu ();
 					PantallaAnt=Pantalla;
 					PosCursor=MuevoCursor(Pantalla, RENUEVO_POS);
