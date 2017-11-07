@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tabla_5fdigitos_5fbcd_5f7seg',['Tabla_Digitos_BCD_7seg',['../_p_r__7_seg_8c.html#a1a0e5c2a77d40832bab20cb84f3594e4',1,'PR_7Seg.c']]]
+  ['demoralcd',['DemoraLCD',['../_f_w___l_c_d_8c.html#adcfe957e24115d6e660d5a3013d3cccc',1,'main.c']]]
 ];

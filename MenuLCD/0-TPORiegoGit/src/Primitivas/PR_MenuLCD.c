@@ -32,47 +32,48 @@ void Menu_LCD (uint8_t TeclaPulsada, uint8_t Temperatura, uint8_t Humedad_A, uin
 
 	//if (PantallaAnt==Pantalla_Menu) -->Actualizacion de Hora/Fecha, RTC, o lo que sea
 
-	//Si permanezco en Pantalla_Tierra y cambió Humedad_T:
 	if (PantallaAnt==Pantalla_Tierra && HumedadTAnt!=Humedad_T) {
+		//Si permanezco en Pantalla_Tierra y cambió Humedad_T:
 		ActualizarTierra (Humedad_T);
 		HumedadTAnt=Humedad_T; //Actualizo estas variables para no caer siempre en este if
 	}
 
-	//Si permanezco en Pantalla_Ambiente y cambiaron los registros de temperatura o humedad:
 	if (PantallaAnt==Pantalla_Ambiente && (TemperaturaAnt!=Temperatura || HumedadAAnt!=Humedad_A)) {
+		//Si permanezco en Pantalla_Ambiente y cambiaron los registros de temperatura o humedad:
 		ActualizarAmbiente (Temperatura, Humedad_A);
 		TemperaturaAnt=Temperatura;
 		HumedadAAnt=Humedad_A;
 	}
 
-	/* Si una tecla es pulsada o si hubo un cambio de pantalla:
-	 * Utilizo la pantalla actual para proceder con el menú
-	*/
 	if ((TeclaPulsada != NO_KEY) || (Pantalla != PantallaAnt)) {
+		/* Si una tecla es pulsada o si hubo un cambio de pantalla:
+		 * Utilizo la pantalla actual para pararme en ella y proceder con el menú:
+		 */
 
 		switch (Pantalla) {
 
 			case Pantalla_Menu:
-				if (Pantalla != PantallaAnt) {	//Si había otra pantalla anteriormente entra a este if
-					LCD_Menu ();
-					PantallaAnt=Pantalla;
-					PosCursor=MuevoCursor(Pantalla, RENUEVO_POS);
+				if (Pantalla != PantallaAnt) {
+					//Si había otra pantalla anteriormente, entra a este if
+					LCD_Menu ();			//Escribe la pantalla Pantalla_Menu
+					PantallaAnt=Pantalla;	//Actualizo PantallaAnt
+					PosCursor=MuevoCursor(Pantalla, RENUEVO_POS); //Posiciono el cursor convenientemente
 					break;
 				}
 				else if (TeclaPulsada==T_DESPLAZAR) {
-					PosCursor=MuevoCursor(Pantalla_Menu, PosCursor);
+					PosCursor=MuevoCursor(Pantalla_Menu, PosCursor); //Muevo el cursor al siguiente lugar permitido.
 					break;
 				}
 				else if (PosCursor==FLECHA_TIERRA && TeclaPulsada==T_OK) {
-					Pantalla=Pantalla_Tierra;
+					Pantalla=Pantalla_Tierra; //Cambio la pantalla a Pantalla_Tierra
 					break;
 				}
 				else if (PosCursor==FLECHA_AMBIENTE && TeclaPulsada==T_OK) {
-					Pantalla=Pantalla_Ambiente;
+					Pantalla=Pantalla_Ambiente; //Cambio la pantalla a Pantalla_Ambiente
 					break;
 				}
 				else if (PosCursor==FLECHA_SETTINGS && TeclaPulsada==T_OK) {
-					Pantalla=Pantalla_Settings;
+					Pantalla=Pantalla_Settings; //Cambio la pantalla a Pantalla_Settings
 					break;
 				}
 				break;

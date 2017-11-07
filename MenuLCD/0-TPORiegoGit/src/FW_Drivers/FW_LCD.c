@@ -1,13 +1,32 @@
+/**
+ 	\file FW_LCD.c
+ 	\brief Driver del LCD
+ 	\date 07.11.2017
+*/
 
 #include "Aplicacion.h"
 
+/** \var extern volatile uint16_t DemoraLCD
+*   \brief Variable descontada por interrupción (Systick)
+*/
+
 extern volatile uint16_t DemoraLCD;
+
+/**
+*	\fn void LCDDelay(uint16_t demora)
+*	\brief Le da tiempo al LCD ya que procesa más lento que el MCU
+*/
 
 void LCDDelay(uint16_t demora)
 {
 	DemoraLCD = demora;
 	while(DemoraLCD);
 }
+
+/**
+*	\fn void LatchLcd(void)
+*	\brief Le da tiempo al LCD ya que procesa más lento que el MCU
+*/
 
 void LatchLcd(void)
 {
@@ -184,16 +203,16 @@ void LCD_HoraRiegoC (void) {
 */
 
 void ActualizarTierra (uint8_t Hum_t){
-	WComando8(LCD_CURSOROFF);	/**Apago el parpadeo del cursor*/
-	WComando8(LCD_1POS8); 		/**Posiciona al cursor en renglón 1 posición 8*/
-	WDato(Hum_t/10+48);			/**Escribe la decena de Hum_t convirtiéndola a ascii*/
-	WDato(Hum_t%10+48);			/**Escribe la unidad de Hum_t convirtiéndola a ascii*/
-	WComando8(FLECHA_ATRAS);	/**Posiciona al cursor en la opción de volver a la pantalla anterior*/
-	WComando8(BLINK_ON);		/**Parpadeo del cursor*/
+	WComando8(LCD_CURSOROFF);	/*Apago el parpadeo del cursor*/
+	WComando8(LCD_1POS8); 		/*Posiciona al cursor en renglón 1 posición 8*/
+	WDato(Hum_t/10+48);			/*Escribe la decena de Hum_t convirtiéndola a ascii*/
+	WDato(Hum_t%10+48);			/*Escribe la unidad de Hum_t convirtiéndola a ascii*/
+	WComando8(FLECHA_ATRAS);	/*Posiciona al cursor en la opción de volver a la pantalla anterior*/
+	WComando8(BLINK_ON);		/*Parpadeo del cursor*/
 }
 
 /**
-*	\fn void ActualizarAmbiente (uint8_t Temp, uint8_t Hum_a){
+*	\fn void ActualizarAmbiente (uint8_t Temp, uint8_t Hum_a)
 *	\brief Actualiza humedad y temperatura mostradas en Pantalla_Ambiente.
 *	\author Lucas
 *	\date 07.11.2017
@@ -202,16 +221,91 @@ void ActualizarTierra (uint8_t Hum_t){
 */
 
 void ActualizarAmbiente (uint8_t Temp, uint8_t Hum_a){
-	WComando8(LCD_CURSOROFF);	/**Apago el parpadeo del cursor*/
-	WComando8(LCD_1POS12);		/**Posiciona al cursor en renglón 1 posición 12*/
-	WDato(Temp/10+48);			/**Escribe la decena de Temp convirtiéndola a ascii*/
-	WDato(Temp%10+48);			/**Escribe la unidad de Temp convirtiéndola a ascii*/
-	WComando8(LCD_2POS7);		/**Posiciona al cursor en renglón 2 posición 7*/
-	WDato(Hum_a/10+48);			/**Escribe la decena de Hum_a convirtiéndola a ascii*/
-	WDato(Hum_a%10+48);			/**Escribe la unidad de Hum_a convirtiéndola a ascii*/
-	WComando8(FLECHA_ATRAS);	/**Posiciona al cursor en la opción de volver a la pantalla anterior*/
-	WComando8(BLINK_ON);		/**Parpadeo del cursor*/
+	WComando8(LCD_CURSOROFF);	/*Apago el parpadeo del cursor*/
+	WComando8(LCD_1POS12);		/*Posiciona al cursor en renglón 1 posición 12*/
+	WDato(Temp/10+48);			/*Escribe la decena de Temp convirtiéndola a ascii*/
+	WDato(Temp%10+48);			/*Escribe la unidad de Temp convirtiéndola a ascii*/
+	WComando8(LCD_2POS7);		/*Posiciona al cursor en renglón 2 posición 7*/
+	WDato(Hum_a/10+48);			/*Escribe la decena de Hum_a convirtiéndola a ascii*/
+	WDato(Hum_a%10+48);			/*Escribe la unidad de Hum_a convirtiéndola a ascii*/
+	WComando8(FLECHA_ATRAS);	/*Posiciona al cursor en la opción de volver a la pantalla anterior*/
+	WComando8(BLINK_ON);		/*Parpadeo del cursor*/
 }
+
+/**
+*	\fn uint8_t MuevoCursor (uint8_t Pant, uint8_t Cursor)
+*	\brief Esta función mueve el cursor al siguiente lugar permitido del menú, según la pantalla actual.
+*	\author Lucas
+*	\date 07.11.2017
+*	\param Pant Informa la pantalla actual donde deberá hacerse el movimiento.
+*	\param Cursor Informa dónde está el cursor actualmente para saber dónde mover.
+*/
+
+/** \var const uint8_t Array_PMenu[]
+*    \brief Array que contiene los comandos de posicionamiento para Pantalla_Menu
+*    \details Contiene los comandos para posicionar al cursor en:
+*    															1. Renglón 1 Pos. 0 (Flecha a Tierra)
+*    															2. Renglón 1 Pos. 7 (Flecha a Ambiente)
+*    															3. Renglón 2 Pos. 0 (Flecha a Configuraciones)
+*/
+
+/** \var const uint8_t Array_PSettings[]
+*    \brief Array que contiene los comandos de posicionamiento para Pantalla_Settings
+*    \details Contiene los comandos para posicionar al cursor en:
+*    															1. Renglón 2 Pos. 10 (Flecha a Atrás)
+*    															2. Renglón 1 Pos. 10 (Flecha a Ambiente)
+*    															3. Renglón 2 Pos. 0 (Flecha a Hora/Día)
+*/
+
+/** \var const uint8_t Array_PRiegoC[]
+*    \brief Array que contiene los comandos de posicionamiento para Pantalla_RiegoC
+*    \details Contiene los comandos para posicionar al cursor en:
+*    															1. Renglón 2 Pos. 10 (Flecha a Atrás)
+*    															2. Renglón 2 Pos. 0 (Flecha a Riego Automático)
+*    															3. Renglón 1 Pos. 13 (Espacio de rellenado)
+*    															4. Renglón 1 Pos. 14 (Espacio de rellenado)
+*/
+
+/** \var const uint8_t Array_PHorasAutC[]
+*    \brief Array que contiene los comandos de posicionamiento para Pantalla_HorasAutC
+*    \details Contiene los comandos para posicionar al cursor en:
+*    															1. Renglón 2 Pos. 10 (Flecha a Atrás)
+*    															2. Renglón 1 Pos. 0 (Primer hora configurable)
+*    															3. Renglón 1 Pos. 2
+*    															4. Renglón 1 Pos. 4
+*    															5. Renglón 1 Pos. 6
+*    															6. Renglón 1 Pos. 8
+*    															7. Renglón 1 Pos. 10
+*    															8. Renglón 1 Pos. 12
+*    															9. Renglón 1 Pos. 13 (Octava hora configurable)
+*/
+
+/** \var const uint8_t Array_PHoraRiegoC[]
+*    \brief Array que contiene los comandos de posicionamiento para Pantalla_HoraRiegoC
+*    \details Contiene los comandos para posicionar al cursor en:
+*    															1. Renglón 2 Pos. 10 (Flecha a Atrás)
+*    															2. Renglón 1 Pos. 5 (Relleno de hora)
+*    															3. Renglón 1 Pos. 6
+*    															4. Renglón 1 Pos. 8 (Relleno de minutos)
+*    															5. Renglón 1 Pos. 9
+*    															6. Renglón 1 Pos. 11 (Flecha a ON/OFF)
+*/
+
+/** \var const uint8_t Array_PHoraFechaC[]=
+*    \brief Array que contiene los comandos de posicionamiento para Pantalla_HoraFechaC
+*    \details Contiene los comandos para posicionar al cursor en:
+*    															1. Renglón 2 Pos. 10 (Flecha a Atrás)
+*    															2. Renglón 1 Pos. 6 (Relleno Día)
+*    															3. Renglón 1 Pos. 7
+*    															4. Renglón 1 Pos. 9 (Relleno Mes)
+*    															5. Renglón 1 Pos. 10
+*    															6. Renglón 1 Pos. 12 (Relleno Año)
+*    															7. Renglón 1 Pos. 13
+*    															8. Renglón 2 Pos. 5 (Relleno de hora)
+*    															9. Renglón 2 Pos. 6
+*    															10. Renglón 2 Pos. 8 (Relleno de minutos)
+*    															11. Renglón 2 Pos. 9
+*/
 
 const uint8_t Array_PMenu[]=			{FLECHA_TIERRA,FLECHA_AMBIENTE,FLECHA_SETTINGS};
 
@@ -223,13 +317,12 @@ const uint8_t Array_PHorasAutC[]=		{FLECHA_ATRAS, LCD_1POS0, LCD_1POS2, LCD_1POS
 									LCD_1POS6, LCD_1POS8, LCD_1POS10,
 									LCD_1POS12, LCD_1POS14};
 
-const uint8_t Array_PHoraFechaC[]=	{FLECHA_ATRAS, LCD_1POS6, LCD_1POS7, LCD_1POS9,
-									LCD_1POS10, LCD_1POS12, LCD_1POS13,LCD_2POS5,
-									LCD_2POS6, LCD_2POS8, LCD_2POS9};
-
 const uint8_t Array_PHoraRiegoC[]=	{FLECHA_ATRAS, LCD_1POS5, LCD_1POS6, LCD_1POS8,
 									LCD_1POS9, LCD_1POS11};
 
+const uint8_t Array_PHoraFechaC[]=	{FLECHA_ATRAS, LCD_1POS6, LCD_1POS7, LCD_1POS9,
+									LCD_1POS10, LCD_1POS12, LCD_1POS13,LCD_2POS5,
+									LCD_2POS6, LCD_2POS8, LCD_2POS9};
 
 uint8_t MuevoCursor (uint8_t Pant, uint8_t Cursor) {
 	static uint8_t i=0;
@@ -271,21 +364,25 @@ uint8_t MuevoCursor (uint8_t Pant, uint8_t Cursor) {
 	return Cursor;
 }
 
-char* itoa2dig (uint8_t num) {
-      if (num<0){
-            num=-num;
-            static char str[4];
-            str[0]='-';
-            str[1]=num/10+48;
-            str[2]=num%10+48;
-            str[3]='\n';
-            return str;
-      }
-      else {
-            static char str[3];
-            str[0]=num/10+48;
-            str[1]=num%10+48;
-            str[2]='\n';
-            return str;
-      }
-}
+
+//////////////////////////////////////////////////////////////////////
+//Comento esta función que hice porque no sé si la usaremos.
+//char* itoa2dig (uint8_t num) {
+//      if (num<0){
+//            num=-num;
+//            static char str[4];
+//            str[0]='-';
+//            str[1]=num/10+48;
+//            str[2]=num%10+48;
+//            str[3]='\n';
+//            return str;
+//      }
+//      else {
+//            static char str[3];
+//            str[0]=num/10+48;
+//            str[1]=num%10+48;
+//            str[2]='\n';
+//            return str;
+//      }
+//}
+////////////////////////////////////////////////////////////////////////

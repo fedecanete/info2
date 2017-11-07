@@ -229,10 +229,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
  .data          0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
  .bss           0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
- .text.itoa2dig
-                0x00000000       0x58 ./src/FW_Drivers/FW_LCD.o
- .bss.str.3881  0x00000000        0x3 ./src/FW_Drivers/FW_LCD.o
- .bss.str.3880  0x00000000        0x4 ./src/FW_Drivers/FW_LCD.o
  .debug_macro   0x00000000      0x886 ./src/FW_Drivers/FW_LCD.o
  .debug_macro   0x00000000      0x4db ./src/FW_Drivers/FW_LCD.o
  .debug_macro   0x00000000       0x7c ./src/FW_Drivers/FW_LCD.o
@@ -582,15 +578,15 @@ END GROUP
                 0x00001b94        0x9 ./src/FW_Drivers/FW_LCD.o
                 0x00001b94                Array_PHorasAutC
  *fill*         0x00001b9d        0x3 ff
- .rodata.Array_PHoraFechaC
-                0x00001ba0        0xb ./src/FW_Drivers/FW_LCD.o
-                0x00001ba0                Array_PHoraFechaC
- *fill*         0x00001bab        0x1 ff
  .rodata.Array_PHoraRiegoC
-                0x00001bac        0x6 ./src/FW_Drivers/FW_LCD.o
-                0x00001bac                Array_PHoraRiegoC
+                0x00001ba0        0x6 ./src/FW_Drivers/FW_LCD.o
+                0x00001ba0                Array_PHoraRiegoC
+ *fill*         0x00001ba6        0x2 ff
+ .rodata.Array_PHoraFechaC
+                0x00001ba8        0xb ./src/FW_Drivers/FW_LCD.o
+                0x00001ba8                Array_PHoraFechaC
                 0x00001bb4                . = ALIGN (0x4)
- *fill*         0x00001bb2        0x2 ff
+ *fill*         0x00001bb3        0x1 ff
 
 .glue_7         0x00001bb4        0x0
  .glue_7        0x00001bb4        0x0 linker stubs
@@ -722,7 +718,7 @@ END GROUP
                 0xefff74c6                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
 OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x10f0
+.debug_info     0x00000000     0x10a4
  .debug_info    0x00000000      0x1bc ./src/Primitivas/PR_7Seg.o
  .debug_info    0x000001bc       0xfa ./src/Primitivas/PR_MenuLCD.o
  .debug_info    0x000002b6       0x7d ./src/Primitivas/PR_Teclado5x1.o
@@ -734,13 +730,13 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .debug_info    0x000005a9       0x5b ./src/FW_Inicializaciones/FW_InitOscilador.o
  .debug_info    0x00000604       0x9f ./src/FW_Drivers/FW_7Seg.o
  .debug_info    0x000006a3      0x207 ./src/FW_Drivers/FW_GPIO.o
- .debug_info    0x000008aa      0x38e ./src/FW_Drivers/FW_LCD.o
- .debug_info    0x00000c38       0x6b ./src/FW_Drivers/FW_Systick.o
- .debug_info    0x00000ca3       0xfd ./src/FW_Drivers/FW_Teclado5x1.o
- .debug_info    0x00000da0      0x253 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
- .debug_info    0x00000ff3       0xfd ./src/main.o
+ .debug_info    0x000008aa      0x342 ./src/FW_Drivers/FW_LCD.o
+ .debug_info    0x00000bec       0x6b ./src/FW_Drivers/FW_Systick.o
+ .debug_info    0x00000c57       0xfd ./src/FW_Drivers/FW_Teclado5x1.o
+ .debug_info    0x00000d54      0x253 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+ .debug_info    0x00000fa7       0xfd ./src/main.o
 
-.debug_abbrev   0x00000000      0x8a6
+.debug_abbrev   0x00000000      0x872
  .debug_abbrev  0x00000000      0x10c ./src/Primitivas/PR_7Seg.o
  .debug_abbrev  0x0000010c       0x65 ./src/Primitivas/PR_MenuLCD.o
  .debug_abbrev  0x00000171       0x6b ./src/Primitivas/PR_Teclado5x1.o
@@ -752,13 +748,13 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .debug_abbrev  0x0000036d       0x47 ./src/FW_Inicializaciones/FW_InitOscilador.o
  .debug_abbrev  0x000003b4       0x7e ./src/FW_Drivers/FW_7Seg.o
  .debug_abbrev  0x00000432       0x9b ./src/FW_Drivers/FW_GPIO.o
- .debug_abbrev  0x000004cd      0x152 ./src/FW_Drivers/FW_LCD.o
- .debug_abbrev  0x0000061f       0x5f ./src/FW_Drivers/FW_Systick.o
- .debug_abbrev  0x0000067e       0xb5 ./src/FW_Drivers/FW_Teclado5x1.o
- .debug_abbrev  0x00000733       0xf5 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
- .debug_abbrev  0x00000828       0x7e ./src/main.o
+ .debug_abbrev  0x000004cd      0x11e ./src/FW_Drivers/FW_LCD.o
+ .debug_abbrev  0x000005eb       0x5f ./src/FW_Drivers/FW_Systick.o
+ .debug_abbrev  0x0000064a       0xb5 ./src/FW_Drivers/FW_Teclado5x1.o
+ .debug_abbrev  0x000006ff       0xf5 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x000007f4       0x7e ./src/main.o
 
-.debug_aranges  0x00000000      0x330
+.debug_aranges  0x00000000      0x328
  .debug_aranges
                 0x00000000       0x20 ./src/Primitivas/PR_7Seg.o
  .debug_aranges
@@ -782,17 +778,17 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .debug_aranges
                 0x00000148       0x50 ./src/FW_Drivers/FW_GPIO.o
  .debug_aranges
-                0x00000198       0xa8 ./src/FW_Drivers/FW_LCD.o
+                0x00000198       0xa0 ./src/FW_Drivers/FW_LCD.o
  .debug_aranges
-                0x00000240       0x20 ./src/FW_Drivers/FW_Systick.o
+                0x00000238       0x20 ./src/FW_Drivers/FW_Systick.o
  .debug_aranges
-                0x00000260       0x30 ./src/FW_Drivers/FW_Teclado5x1.o
+                0x00000258       0x30 ./src/FW_Drivers/FW_Teclado5x1.o
  .debug_aranges
-                0x00000290       0x80 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+                0x00000288       0x80 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
  .debug_aranges
-                0x00000310       0x20 ./src/main.o
+                0x00000308       0x20 ./src/main.o
 
-.debug_ranges   0x00000000      0x230
+.debug_ranges   0x00000000      0x228
  .debug_ranges  0x00000000       0x10 ./src/Primitivas/PR_7Seg.o
  .debug_ranges  0x00000010       0x10 ./src/Primitivas/PR_MenuLCD.o
  .debug_ranges  0x00000020       0x10 ./src/Primitivas/PR_Teclado5x1.o
@@ -804,11 +800,11 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .debug_ranges  0x00000088       0x10 ./src/FW_Inicializaciones/FW_InitOscilador.o
  .debug_ranges  0x00000098       0x10 ./src/FW_Drivers/FW_7Seg.o
  .debug_ranges  0x000000a8       0x40 ./src/FW_Drivers/FW_GPIO.o
- .debug_ranges  0x000000e8       0x98 ./src/FW_Drivers/FW_LCD.o
- .debug_ranges  0x00000180       0x10 ./src/FW_Drivers/FW_Systick.o
- .debug_ranges  0x00000190       0x20 ./src/FW_Drivers/FW_Teclado5x1.o
- .debug_ranges  0x000001b0       0x70 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
- .debug_ranges  0x00000220       0x10 ./src/main.o
+ .debug_ranges  0x000000e8       0x90 ./src/FW_Drivers/FW_LCD.o
+ .debug_ranges  0x00000178       0x10 ./src/FW_Drivers/FW_Systick.o
+ .debug_ranges  0x00000188       0x20 ./src/FW_Drivers/FW_Teclado5x1.o
+ .debug_ranges  0x000001a8       0x70 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000218       0x10 ./src/main.o
 
 .debug_macro    0x00000000     0x1946
  .debug_macro   0x00000000       0x69 ./src/Primitivas/PR_7Seg.o
@@ -838,7 +834,7 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .debug_macro   0x00001852       0x72 ./src/main.o
  .debug_macro   0x000018c4       0x82 ./src/main.o
 
-.debug_line     0x00000000     0x165d
+.debug_line     0x00000000     0x1648
  .debug_line    0x00000000      0x12d ./src/Primitivas/PR_7Seg.o
  .debug_line    0x0000012d      0x22f ./src/Primitivas/PR_MenuLCD.o
  .debug_line    0x0000035c      0x122 ./src/Primitivas/PR_Teclado5x1.o
@@ -850,13 +846,13 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .debug_line    0x00000abc       0xfb ./src/FW_Inicializaciones/FW_InitOscilador.o
  .debug_line    0x00000bb7      0x130 ./src/FW_Drivers/FW_7Seg.o
  .debug_line    0x00000ce7      0x195 ./src/FW_Drivers/FW_GPIO.o
- .debug_line    0x00000e7c      0x2f0 ./src/FW_Drivers/FW_LCD.o
- .debug_line    0x0000116c      0x122 ./src/FW_Drivers/FW_Systick.o
- .debug_line    0x0000128e      0x186 ./src/FW_Drivers/FW_Teclado5x1.o
- .debug_line    0x00001414       0xdf ./src/FW_Drivers/cr_startup_lpc175x_6x.o
- .debug_line    0x000014f3      0x16a ./src/main.o
+ .debug_line    0x00000e7c      0x2db ./src/FW_Drivers/FW_LCD.o
+ .debug_line    0x00001157      0x122 ./src/FW_Drivers/FW_Systick.o
+ .debug_line    0x00001279      0x186 ./src/FW_Drivers/FW_Teclado5x1.o
+ .debug_line    0x000013ff       0xdf ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+ .debug_line    0x000014de      0x16a ./src/main.o
 
-.debug_str      0x00000000     0x51b9
+.debug_str      0x00000000     0x51b0
  .debug_str     0x00000000     0x4689 ./src/Primitivas/PR_7Seg.o
                                0x4713 (size before relaxing)
  .debug_str     0x00004689       0x9b ./src/Primitivas/PR_MenuLCD.o
@@ -879,15 +875,15 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
                                0x467c (size before relaxing)
  .debug_str     0x00004906       0x76 ./src/FW_Drivers/FW_GPIO.o
                                0x46b5 (size before relaxing)
- .debug_str     0x0000497c      0x18a ./src/FW_Drivers/FW_LCD.o
-                               0x47d5 (size before relaxing)
- .debug_str     0x00004b06       0x2f ./src/FW_Drivers/FW_Systick.o
+ .debug_str     0x0000497c      0x181 ./src/FW_Drivers/FW_LCD.o
+                               0x47cc (size before relaxing)
+ .debug_str     0x00004afd       0x2f ./src/FW_Drivers/FW_Systick.o
                                0x4670 (size before relaxing)
- .debug_str     0x00004b35       0x6b ./src/FW_Drivers/FW_Teclado5x1.o
+ .debug_str     0x00004b2c       0x6b ./src/FW_Drivers/FW_Teclado5x1.o
                                0x46b0 (size before relaxing)
- .debug_str     0x00004ba0      0x1bd ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+ .debug_str     0x00004b97      0x1bd ./src/FW_Drivers/cr_startup_lpc175x_6x.o
                                0x269e (size before relaxing)
- .debug_str     0x00004d5d      0x45c ./src/main.o
+ .debug_str     0x00004d54      0x45c ./src/main.o
                                0x4ae1 (size before relaxing)
 
 .comment        0x00000000       0xdc
@@ -948,7 +944,7 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .ARM.attributes
                 0x00000330       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
-.debug_frame    0x00000000      0x7d0
+.debug_frame    0x00000000      0x7a8
  .debug_frame   0x00000000       0x38 ./src/Primitivas/PR_7Seg.o
  .debug_frame   0x00000038       0x38 ./src/Primitivas/PR_MenuLCD.o
  .debug_frame   0x00000070       0x38 ./src/Primitivas/PR_Teclado5x1.o
@@ -960,8 +956,8 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .debug_frame   0x000001a4       0x30 ./src/FW_Inicializaciones/FW_InitOscilador.o
  .debug_frame   0x000001d4       0x34 ./src/FW_Drivers/FW_7Seg.o
  .debug_frame   0x00000208      0x128 ./src/FW_Drivers/FW_GPIO.o
- .debug_frame   0x00000330      0x258 ./src/FW_Drivers/FW_LCD.o
- .debug_frame   0x00000588       0x2c ./src/FW_Drivers/FW_Systick.o
- .debug_frame   0x000005b4       0x80 ./src/FW_Drivers/FW_Teclado5x1.o
- .debug_frame   0x00000634      0x170 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
- .debug_frame   0x000007a4       0x2c ./src/main.o
+ .debug_frame   0x00000330      0x230 ./src/FW_Drivers/FW_LCD.o
+ .debug_frame   0x00000560       0x2c ./src/FW_Drivers/FW_Systick.o
+ .debug_frame   0x0000058c       0x80 ./src/FW_Drivers/FW_Teclado5x1.o
+ .debug_frame   0x0000060c      0x170 ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+ .debug_frame   0x0000077c       0x2c ./src/main.o
