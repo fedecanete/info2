@@ -203,3 +203,1187 @@ arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-
    text	   data	    bss	    dec	    hex	filename
    7092	     16	     24	   7132	   1bdc	0-TPORiegoGit.axf
  
+22:23:45 **** Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_MenuLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_MenuLCD.d" -MT"src/Primitivas/PR_MenuLCD.o" -MT"src/Primitivas/PR_MenuLCD.d" -o "src/Primitivas/PR_MenuLCD.o" "../src/Primitivas/PR_MenuLCD.c"
+Finished building: ../src/Primitivas/PR_MenuLCD.c
+ 
+Building file: ../src/FW_Drivers/FW_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_LCD.d" -MT"src/FW_Drivers/FW_LCD.o" -MT"src/FW_Drivers/FW_LCD.d" -o "src/FW_Drivers/FW_LCD.o" "../src/FW_Drivers/FW_LCD.c"
+../src/FW_Drivers/FW_LCD.c: In function 'Escribir':
+../src/FW_Drivers/FW_LCD.c:41:22: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  static uint8_t* aux=p;
+                      ^
+../src/FW_Drivers/FW_LCD.c:41:22: error: initializer element is not constant
+make: *** [src/FW_Drivers/FW_LCD.o] Error 1
+22:23:47 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/FW_Drivers/FW_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_LCD.d" -MT"src/FW_Drivers/FW_LCD.o" -MT"src/FW_Drivers/FW_LCD.d" -o "src/FW_Drivers/FW_LCD.o" "../src/FW_Drivers/FW_LCD.c"
+../src/FW_Drivers/FW_LCD.c: In function 'Escribir':
+../src/FW_Drivers/FW_LCD.c:41:22: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  static uint8_t* aux=p;
+                      ^
+../src/FW_Drivers/FW_LCD.c:41:22: error: initializer element is not constant
+make: *** [src/FW_Drivers/FW_LCD.o] Error 1
+22:24:09 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/FW_Drivers/FW_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_LCD.d" -MT"src/FW_Drivers/FW_LCD.o" -MT"src/FW_Drivers/FW_LCD.d" -o "src/FW_Drivers/FW_LCD.o" "../src/FW_Drivers/FW_LCD.c"
+../src/FW_Drivers/FW_LCD.c: In function 'Escribir':
+../src/FW_Drivers/FW_LCD.c:42:9: error: 'aux' undeclared (first use in this function)
+  while(*aux != '\0') {
+         ^
+../src/FW_Drivers/FW_LCD.c:42:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/FW_Drivers/FW_LCD.o] Error 1
+22:24:10 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/FW_Drivers/FW_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_LCD.d" -MT"src/FW_Drivers/FW_LCD.o" -MT"src/FW_Drivers/FW_LCD.d" -o "src/FW_Drivers/FW_LCD.o" "../src/FW_Drivers/FW_LCD.c"
+../src/FW_Drivers/FW_LCD.c: In function 'Escribir':
+../src/FW_Drivers/FW_LCD.c:42:9: error: 'aux' undeclared (first use in this function)
+  while(*aux != '\0') {
+         ^
+../src/FW_Drivers/FW_LCD.c:42:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/FW_Drivers/FW_LCD.o] Error 1
+22:24:27 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/FW_Drivers/FW_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_LCD.d" -MT"src/FW_Drivers/FW_LCD.o" -MT"src/FW_Drivers/FW_LCD.d" -o "src/FW_Drivers/FW_LCD.o" "../src/FW_Drivers/FW_LCD.c"
+Finished building: ../src/FW_Drivers/FW_LCD.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/FW_Drivers/FW_7Seg.o ./src/FW_Drivers/FW_GPIO.o ./src/FW_Drivers/FW_LCD.o ./src/FW_Drivers/FW_Systick.o ./src/FW_Drivers/FW_Teclado5x1.o ./src/FW_Drivers/cr_startup_lpc175x_6x.o ./src/FW_Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7108 B       512 KB      1.36%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7092	     16	     24	   7132	   1bdc	0-TPORiegoGit.axf
+ 
+22:24:36 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+22:24:37 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+22:27:14 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+22:27:16 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+22:28:23 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+22:28:24 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+23:23:06 **** Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+Finished building: ../src/Primitivas/PR_7Seg.c
+ 
+Building file: ../src/Primitivas/PR_MenuLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_MenuLCD.d" -MT"src/Primitivas/PR_MenuLCD.o" -MT"src/Primitivas/PR_MenuLCD.d" -o "src/Primitivas/PR_MenuLCD.o" "../src/Primitivas/PR_MenuLCD.c"
+Finished building: ../src/Primitivas/PR_MenuLCD.c
+ 
+Building file: ../src/Primitivas/PR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_Teclado5x1.d" -MT"src/Primitivas/PR_Teclado5x1.o" -MT"src/Primitivas/PR_Teclado5x1.d" -o "src/Primitivas/PR_Teclado5x1.o" "../src/Primitivas/PR_Teclado5x1.c"
+Finished building: ../src/Primitivas/PR_Teclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.o" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -o "src/FW_Inicializaciones/FW_InicDisplays7seg.o" "../src/FW_Inicializaciones/FW_InicDisplays7seg.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicLCD.d" -MT"src/FW_Inicializaciones/FW_InicLCD.o" -MT"src/FW_Inicializaciones/FW_InicLCD.d" -o "src/FW_Inicializaciones/FW_InicLCD.o" "../src/FW_Inicializaciones/FW_InicLCD.c"
+../src/FW_Inicializaciones/FW_InicLCD.c: In function 'Inic_LCD':
+../src/FW_Inicializaciones/FW_InicLCD.c:39:2: warning: implicit declaration of function 'InicLCDDelay' [-Wimplicit-function-declaration]
+  InicLCDDelay(100);   // 400 Demora inicial para dejar que todo se estabilice
+  ^
+Finished building: ../src/FW_Inicializaciones/FW_InicLCD.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicSysTick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicSysTick.d" -MT"src/FW_Inicializaciones/FW_InicSysTick.o" -MT"src/FW_Inicializaciones/FW_InicSysTick.d" -o "src/FW_Inicializaciones/FW_InicSysTick.o" "../src/FW_Inicializaciones/FW_InicSysTick.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicSysTick.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.o" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -o "src/FW_Inicializaciones/FW_InicTeclado5x1.o" "../src/FW_Inicializaciones/FW_InicTeclado5x1.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitBaseBoard.d" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.o" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.d" -o "src/FW_Inicializaciones/FW_InitBaseBoard.o" "../src/FW_Inicializaciones/FW_InitBaseBoard.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+ 
+Building file: ../src/FW_Drivers/FW_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_7Seg.d" -MT"src/FW_Drivers/FW_7Seg.o" -MT"src/FW_Drivers/FW_7Seg.d" -o "src/FW_Drivers/FW_7Seg.o" "../src/FW_Drivers/FW_7Seg.c"
+Finished building: ../src/FW_Drivers/FW_7Seg.c
+ 
+Building file: ../src/FW_Drivers/FW_GPIO.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_GPIO.d" -MT"src/FW_Drivers/FW_GPIO.o" -MT"src/FW_Drivers/FW_GPIO.d" -o "src/FW_Drivers/FW_GPIO.o" "../src/FW_Drivers/FW_GPIO.c"
+Finished building: ../src/FW_Drivers/FW_GPIO.c
+ 
+Building file: ../src/FW_Drivers/FW_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_LCD.d" -MT"src/FW_Drivers/FW_LCD.o" -MT"src/FW_Drivers/FW_LCD.d" -o "src/FW_Drivers/FW_LCD.o" "../src/FW_Drivers/FW_LCD.c"
+../src/FW_Drivers/FW_LCD.c: In function 'WComando4':
+../src/FW_Drivers/FW_LCD.c:76:2: warning: implicit declaration of function 'InicLCDDelay' [-Wimplicit-function-declaration]
+  InicLCDDelay(2);
+  ^
+Finished building: ../src/FW_Drivers/FW_LCD.c
+ 
+Building file: ../src/FW_Drivers/FW_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_Systick.d" -MT"src/FW_Drivers/FW_Systick.o" -MT"src/FW_Drivers/FW_Systick.d" -o "src/FW_Drivers/FW_Systick.o" "../src/FW_Drivers/FW_Systick.c"
+Finished building: ../src/FW_Drivers/FW_Systick.c
+ 
+Building file: ../src/FW_Drivers/FW_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_Teclado5x1.d" -MT"src/FW_Drivers/FW_Teclado5x1.o" -MT"src/FW_Drivers/FW_Teclado5x1.d" -o "src/FW_Drivers/FW_Teclado5x1.o" "../src/FW_Drivers/FW_Teclado5x1.c"
+Finished building: ../src/FW_Drivers/FW_Teclado5x1.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/FW_Drivers/FW_7Seg.o ./src/FW_Drivers/FW_GPIO.o ./src/FW_Drivers/FW_LCD.o ./src/FW_Drivers/FW_Systick.o ./src/FW_Drivers/FW_Teclado5x1.o ./src/FW_Drivers/cr_startup_lpc175x_6x.o ./src/FW_Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7108 B       512 KB      1.36%
+        RamLoc32:          40 B        32 KB      0.12%
+./src/FW_Inicializaciones/FW_InicLCD.o: In function `Inic_LCD':
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\Debug/../src/FW_Inicializaciones/FW_InicLCD.c:39: undefined reference to `InicLCDDelay'
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\Debug/../src/FW_Inicializaciones/FW_InicLCD.c:41: undefined reference to `InicLCDDelay'
+        RamAHB32:          0 GB        32 KB      0.00%
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\Debug/../src/FW_Inicializaciones/FW_InicLCD.c:44: undefined reference to `InicLCDDelay'
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\Debug/../src/FW_Inicializaciones/FW_InicLCD.c:47: undefined reference to `InicLCDDelay'
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\Debug/../src/FW_Inicializaciones/FW_InicLCD.c:51: undefined reference to `InicLCDDelay'
+./src/FW_Inicializaciones/FW_InicLCD.o:C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\Debug/../src/FW_Inicializaciones/FW_InicLCD.c:54: more undefined references to `InicLCDDelay' follow
+collect2.exe: error: ld returned 1 exit status
+make: *** [0-TPORiegoGit.axf] Error 1
+23:23:52 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/FW_Inicializaciones/FW_InicLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicLCD.d" -MT"src/FW_Inicializaciones/FW_InicLCD.o" -MT"src/FW_Inicializaciones/FW_InicLCD.d" -o "src/FW_Inicializaciones/FW_InicLCD.o" "../src/FW_Inicializaciones/FW_InicLCD.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicLCD.c
+ 
+Building file: ../src/FW_Drivers/FW_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_LCD.d" -MT"src/FW_Drivers/FW_LCD.o" -MT"src/FW_Drivers/FW_LCD.d" -o "src/FW_Drivers/FW_LCD.o" "../src/FW_Drivers/FW_LCD.c"
+Finished building: ../src/FW_Drivers/FW_LCD.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/FW_Drivers/FW_7Seg.o ./src/FW_Drivers/FW_GPIO.o ./src/FW_Drivers/FW_LCD.o ./src/FW_Drivers/FW_Systick.o ./src/FW_Drivers/FW_Teclado5x1.o ./src/FW_Drivers/cr_startup_lpc175x_6x.o ./src/FW_Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7108 B       512 KB      1.36%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7092	     16	     24	   7132	   1bdc	0-TPORiegoGit.axf
+ 
+23:24:57 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+23:24:58 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+23:25:11 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+23:25:12 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+16:58:29 **** Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+Finished building: ../src/Primitivas/PR_7Seg.c
+ 
+Building file: ../src/Primitivas/PR_MenuLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_MenuLCD.d" -MT"src/Primitivas/PR_MenuLCD.o" -MT"src/Primitivas/PR_MenuLCD.d" -o "src/Primitivas/PR_MenuLCD.o" "../src/Primitivas/PR_MenuLCD.c"
+Finished building: ../src/Primitivas/PR_MenuLCD.c
+ 
+Building file: ../src/Primitivas/PR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_Teclado5x1.d" -MT"src/Primitivas/PR_Teclado5x1.o" -MT"src/Primitivas/PR_Teclado5x1.d" -o "src/Primitivas/PR_Teclado5x1.o" "../src/Primitivas/PR_Teclado5x1.c"
+Finished building: ../src/Primitivas/PR_Teclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.o" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -o "src/FW_Inicializaciones/FW_InicDisplays7seg.o" "../src/FW_Inicializaciones/FW_InicDisplays7seg.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicLCD.d" -MT"src/FW_Inicializaciones/FW_InicLCD.o" -MT"src/FW_Inicializaciones/FW_InicLCD.d" -o "src/FW_Inicializaciones/FW_InicLCD.o" "../src/FW_Inicializaciones/FW_InicLCD.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicLCD.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicSysTick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicSysTick.d" -MT"src/FW_Inicializaciones/FW_InicSysTick.o" -MT"src/FW_Inicializaciones/FW_InicSysTick.d" -o "src/FW_Inicializaciones/FW_InicSysTick.o" "../src/FW_Inicializaciones/FW_InicSysTick.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicSysTick.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.o" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -o "src/FW_Inicializaciones/FW_InicTeclado5x1.o" "../src/FW_Inicializaciones/FW_InicTeclado5x1.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitBaseBoard.d" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.o" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.d" -o "src/FW_Inicializaciones/FW_InitBaseBoard.o" "../src/FW_Inicializaciones/FW_InitBaseBoard.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitOscilador.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitOscilador.d" -MT"src/FW_Inicializaciones/FW_InitOscilador.o" -MT"src/FW_Inicializaciones/FW_InitOscilador.d" -o "src/FW_Inicializaciones/FW_InitOscilador.o" "../src/FW_Inicializaciones/FW_InitOscilador.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitOscilador.c
+ 
+Building file: ../src/Drivers/DR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_7Seg.d" -MT"src/Drivers/DR_7Seg.o" -MT"src/Drivers/DR_7Seg.d" -o "src/Drivers/DR_7Seg.o" "../src/Drivers/DR_7Seg.c"
+Finished building: ../src/Drivers/DR_7Seg.c
+ 
+Building file: ../src/Drivers/DR_GPIO.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_GPIO.d" -MT"src/Drivers/DR_GPIO.o" -MT"src/Drivers/DR_GPIO.d" -o "src/Drivers/DR_GPIO.o" "../src/Drivers/DR_GPIO.c"
+Finished building: ../src/Drivers/DR_GPIO.c
+ 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building file: ../src/Drivers/DR_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Systick.d" -MT"src/Drivers/DR_Systick.o" -MT"src/Drivers/DR_Systick.d" -o "src/Drivers/DR_Systick.o" "../src/Drivers/DR_Systick.c"
+Finished building: ../src/Drivers/DR_Systick.c
+ 
+Building file: ../src/Drivers/DR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Teclado5x1.d" -MT"src/Drivers/DR_Teclado5x1.o" -MT"src/Drivers/DR_Teclado5x1.d" -o "src/Drivers/DR_Teclado5x1.o" "../src/Drivers/DR_Teclado5x1.c"
+Finished building: ../src/Drivers/DR_Teclado5x1.c
+ 
+Building file: ../src/Drivers/cr_startup_lpc175x_6x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/cr_startup_lpc175x_6x.d" -MT"src/Drivers/cr_startup_lpc175x_6x.o" -MT"src/Drivers/cr_startup_lpc175x_6x.d" -o "src/Drivers/cr_startup_lpc175x_6x.o" "../src/Drivers/cr_startup_lpc175x_6x.c"
+Finished building: ../src/Drivers/cr_startup_lpc175x_6x.c
+ 
+Building file: ../src/Drivers/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/crp.d" -MT"src/Drivers/crp.o" -MT"src/Drivers/crp.d" -o "src/Drivers/crp.o" "../src/Drivers/crp.c"
+Finished building: ../src/Drivers/crp.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7108 B       512 KB      1.36%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7092	     16	     24	   7132	   1bdc	0-TPORiegoGit.axf
+ 
+17:29:12 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+In file included from C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/Aplicacion.h:18:0,
+                 from ../src/Primitivas/PR_7Seg.c:9:
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h: In function 'Teclado':
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h:17:24: error: unknown type name 'RTC_HoraFecha'
+ void RTC_SetHoraFecha (RTC_HoraFecha*);
+                        ^
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h:18:24: error: unknown type name 'RTC_HoraFecha'
+ void RTC_GetHoraFecha (RTC_HoraFecha*);
+                        ^
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h:29:3: error: storage class specified for parameter 'RTC_HoraFecha'
+ } RTC_HoraFecha;
+   ^
+../src/Primitivas/PR_7Seg.c:11:25: error: storage class specified for parameter 'msgDisplay'
+ extern volatile uint8_t msgDisplay[DIGITOS];   //!< Buffer de display
+                         ^
+../src/Primitivas/PR_7Seg.c:27:1: error: parameter 'Tabla_Digitos_BCD_7seg' is initialized
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+ ^
+../src/Primitivas/PR_7Seg.c:27:38: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                      ^
+../src/Primitivas/PR_7Seg.c:27:38: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:44: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                            ^
+../src/Primitivas/PR_7Seg.c:27:44: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:50: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                  ^
+../src/Primitivas/PR_7Seg.c:27:50: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:56: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                        ^
+../src/Primitivas/PR_7Seg.c:27:56: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:62: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                              ^
+../src/Primitivas/PR_7Seg.c:27:62: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:68: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                    ^
+../src/Primitivas/PR_7Seg.c:27:68: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:74: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                          ^
+../src/Primitivas/PR_7Seg.c:27:74: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:80: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                                ^
+../src/Primitivas/PR_7Seg.c:27:80: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:86: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                                      ^
+../src/Primitivas/PR_7Seg.c:27:86: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:92: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                                            ^
+../src/Primitivas/PR_7Seg.c:27:92: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:38:47: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ void Displays7seg (uint8_t valor, uint8_t dsp){
+                                               ^
+In file included from C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/Aplicacion.h:16:0,
+                 from ../src/Primitivas/PR_7Seg.c:9:
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/Teclado_5x1.h:29:10: error: old-style parameter declarations in prototyped function definition
+  uint8_t Teclado( void )  //Primitiva
+          ^
+../src/Primitivas/PR_7Seg.c:65:1: error: expected '{' at end of input
+ }
+ ^
+../src/Primitivas/PR_7Seg.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Primitivas/PR_7Seg.o] Error 1
+17:29:14 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+In file included from C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/Aplicacion.h:18:0,
+                 from ../src/Primitivas/PR_7Seg.c:9:
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h: In function 'Teclado':
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h:17:24: error: unknown type name 'RTC_HoraFecha'
+ void RTC_SetHoraFecha (RTC_HoraFecha*);
+                        ^
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h:18:24: error: unknown type name 'RTC_HoraFecha'
+ void RTC_GetHoraFecha (RTC_HoraFecha*);
+                        ^
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h:29:3: error: storage class specified for parameter 'RTC_HoraFecha'
+ } RTC_HoraFecha;
+   ^
+../src/Primitivas/PR_7Seg.c:11:25: error: storage class specified for parameter 'msgDisplay'
+ extern volatile uint8_t msgDisplay[DIGITOS];   //!< Buffer de display
+                         ^
+../src/Primitivas/PR_7Seg.c:27:1: error: parameter 'Tabla_Digitos_BCD_7seg' is initialized
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+ ^
+../src/Primitivas/PR_7Seg.c:27:38: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                      ^
+../src/Primitivas/PR_7Seg.c:27:38: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:44: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                            ^
+../src/Primitivas/PR_7Seg.c:27:44: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:50: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                  ^
+../src/Primitivas/PR_7Seg.c:27:50: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:56: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                        ^
+../src/Primitivas/PR_7Seg.c:27:56: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:62: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                              ^
+../src/Primitivas/PR_7Seg.c:27:62: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:68: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                    ^
+../src/Primitivas/PR_7Seg.c:27:68: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:74: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                          ^
+../src/Primitivas/PR_7Seg.c:27:74: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:80: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                                ^
+../src/Primitivas/PR_7Seg.c:27:80: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:86: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                                      ^
+../src/Primitivas/PR_7Seg.c:27:86: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:27:92: warning: excess elements in scalar initializer
+ uint8_t Tabla_Digitos_BCD_7seg[] = { 0x3f, 0x06, 0x5B, 0x4f, 0x66, 0x6D, 0x7C, 0x07, 0x7f, 0x67};
+                                                                                            ^
+../src/Primitivas/PR_7Seg.c:27:92: note: (near initialization for 'Tabla_Digitos_BCD_7seg')
+../src/Primitivas/PR_7Seg.c:38:47: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ void Displays7seg (uint8_t valor, uint8_t dsp){
+                                               ^
+In file included from C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/Aplicacion.h:16:0,
+                 from ../src/Primitivas/PR_7Seg.c:9:
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/Teclado_5x1.h:29:10: error: old-style parameter declarations in prototyped function definition
+  uint8_t Teclado( void )  //Primitiva
+          ^
+../src/Primitivas/PR_7Seg.c:65:1: error: expected '{' at end of input
+ }
+ ^
+../src/Primitivas/PR_7Seg.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Primitivas/PR_7Seg.o] Error 1
+17:34:04 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+In file included from C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/Aplicacion.h:18:0,
+                 from ../src/Primitivas/PR_7Seg.c:9:
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h:17:24: error: unknown type name 'RTC_HoraFecha'
+ void RTC_SetHoraFecha (RTC_HoraFecha*);
+                        ^
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc/RTC.h:18:24: error: unknown type name 'RTC_HoraFecha'
+ void RTC_GetHoraFecha (RTC_HoraFecha*);
+                        ^
+make: *** [src/Primitivas/PR_7Seg.o] Error 1
+17:34:54 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+Finished building: ../src/Primitivas/PR_7Seg.c
+ 
+Building file: ../src/Primitivas/PR_MenuLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_MenuLCD.d" -MT"src/Primitivas/PR_MenuLCD.o" -MT"src/Primitivas/PR_MenuLCD.d" -o "src/Primitivas/PR_MenuLCD.o" "../src/Primitivas/PR_MenuLCD.c"
+Finished building: ../src/Primitivas/PR_MenuLCD.c
+ 
+Building file: ../src/Primitivas/PR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_Teclado5x1.d" -MT"src/Primitivas/PR_Teclado5x1.o" -MT"src/Primitivas/PR_Teclado5x1.d" -o "src/Primitivas/PR_Teclado5x1.o" "../src/Primitivas/PR_Teclado5x1.c"
+Finished building: ../src/Primitivas/PR_Teclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.o" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -o "src/FW_Inicializaciones/FW_InicDisplays7seg.o" "../src/FW_Inicializaciones/FW_InicDisplays7seg.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicLCD.d" -MT"src/FW_Inicializaciones/FW_InicLCD.o" -MT"src/FW_Inicializaciones/FW_InicLCD.d" -o "src/FW_Inicializaciones/FW_InicLCD.o" "../src/FW_Inicializaciones/FW_InicLCD.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicLCD.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicSysTick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicSysTick.d" -MT"src/FW_Inicializaciones/FW_InicSysTick.o" -MT"src/FW_Inicializaciones/FW_InicSysTick.d" -o "src/FW_Inicializaciones/FW_InicSysTick.o" "../src/FW_Inicializaciones/FW_InicSysTick.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicSysTick.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.o" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -o "src/FW_Inicializaciones/FW_InicTeclado5x1.o" "../src/FW_Inicializaciones/FW_InicTeclado5x1.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitBaseBoard.d" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.o" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.d" -o "src/FW_Inicializaciones/FW_InitBaseBoard.o" "../src/FW_Inicializaciones/FW_InitBaseBoard.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+ 
+Building file: ../src/Drivers/DR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_7Seg.d" -MT"src/Drivers/DR_7Seg.o" -MT"src/Drivers/DR_7Seg.d" -o "src/Drivers/DR_7Seg.o" "../src/Drivers/DR_7Seg.c"
+Finished building: ../src/Drivers/DR_7Seg.c
+ 
+Building file: ../src/Drivers/DR_GPIO.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_GPIO.d" -MT"src/Drivers/DR_GPIO.o" -MT"src/Drivers/DR_GPIO.d" -o "src/Drivers/DR_GPIO.o" "../src/Drivers/DR_GPIO.c"
+Finished building: ../src/Drivers/DR_GPIO.c
+ 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+Finished building: ../src/Drivers/DR_RTC.c
+ 
+Building file: ../src/Drivers/DR_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Systick.d" -MT"src/Drivers/DR_Systick.o" -MT"src/Drivers/DR_Systick.d" -o "src/Drivers/DR_Systick.o" "../src/Drivers/DR_Systick.c"
+Finished building: ../src/Drivers/DR_Systick.c
+ 
+Building file: ../src/Drivers/DR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Teclado5x1.d" -MT"src/Drivers/DR_Teclado5x1.o" -MT"src/Drivers/DR_Teclado5x1.d" -o "src/Drivers/DR_Teclado5x1.o" "../src/Drivers/DR_Teclado5x1.c"
+Finished building: ../src/Drivers/DR_Teclado5x1.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7216 B       512 KB      1.38%
+        RamLoc32:          40 B        32 KB      0.12%
+./src/Drivers/DR_RTC.o: In function `RTC_IRQHandler':
+C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\Debug/../src/Drivers/DR_RTC.c:115: undefined reference to `f_tick_rtc'
+        RamAHB32:          0 GB        32 KB      0.00%
+collect2.exe: error: ld returned 1 exit status
+make: *** [0-TPORiegoGit.axf] Error 1
+17:36:48 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+../src/Drivers/DR_RTC.c: In function 'RTC_IRQHandler':
+../src/Drivers/DR_RTC.c:114:2: error: 'f_tick_rtc' undeclared (first use in this function)
+  f_tick_rtc = 1;
+  ^
+../src/Drivers/DR_RTC.c:114:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Drivers/DR_RTC.o] Error 1
+17:36:51 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+../src/Drivers/DR_RTC.c: In function 'RTC_IRQHandler':
+../src/Drivers/DR_RTC.c:114:2: error: 'f_tick_rtc' undeclared (first use in this function)
+  f_tick_rtc = 1;
+  ^
+../src/Drivers/DR_RTC.c:114:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/Drivers/DR_RTC.o] Error 1
+17:37:10 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+Finished building: ../src/Drivers/DR_RTC.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7216 B       512 KB      1.38%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7200	     16	     24	   7240	   1c48	0-TPORiegoGit.axf
+ 
+18:07:32 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/FW_Inicializaciones/FW_InicRTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicRTC.d" -MT"src/FW_Inicializaciones/FW_InicRTC.o" -MT"src/FW_Inicializaciones/FW_InicRTC.d" -o "src/FW_Inicializaciones/FW_InicRTC.o" "../src/FW_Inicializaciones/FW_InicRTC.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicRTC.c
+ 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+Finished building: ../src/Drivers/DR_RTC.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7216 B       512 KB      1.38%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7200	     16	     24	   7240	   1c48	0-TPORiegoGit.axf
+ 
+18:07:34 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:07:48 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:07:49 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:35:06 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+Finished building: ../src/Primitivas/PR_7Seg.c
+ 
+Building file: ../src/Primitivas/PR_MenuLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_MenuLCD.d" -MT"src/Primitivas/PR_MenuLCD.o" -MT"src/Primitivas/PR_MenuLCD.d" -o "src/Primitivas/PR_MenuLCD.o" "../src/Primitivas/PR_MenuLCD.c"
+../src/Primitivas/PR_MenuLCD.c: In function 'Menu_LCD':
+../src/Primitivas/PR_MenuLCD.c:36:3: warning: implicit declaration of function 'ActualizarHora' [-Wimplicit-function-declaration]
+   ActualizarHora();
+   ^
+Finished building: ../src/Primitivas/PR_MenuLCD.c
+ 
+Building file: ../src/Primitivas/PR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_Teclado5x1.d" -MT"src/Primitivas/PR_Teclado5x1.o" -MT"src/Primitivas/PR_Teclado5x1.d" -o "src/Primitivas/PR_Teclado5x1.o" "../src/Primitivas/PR_Teclado5x1.c"
+Finished building: ../src/Primitivas/PR_Teclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.o" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -o "src/FW_Inicializaciones/FW_InicDisplays7seg.o" "../src/FW_Inicializaciones/FW_InicDisplays7seg.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicLCD.d" -MT"src/FW_Inicializaciones/FW_InicLCD.o" -MT"src/FW_Inicializaciones/FW_InicLCD.d" -o "src/FW_Inicializaciones/FW_InicLCD.o" "../src/FW_Inicializaciones/FW_InicLCD.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicLCD.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicRTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicRTC.d" -MT"src/FW_Inicializaciones/FW_InicRTC.o" -MT"src/FW_Inicializaciones/FW_InicRTC.d" -o "src/FW_Inicializaciones/FW_InicRTC.o" "../src/FW_Inicializaciones/FW_InicRTC.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicRTC.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicSysTick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicSysTick.d" -MT"src/FW_Inicializaciones/FW_InicSysTick.o" -MT"src/FW_Inicializaciones/FW_InicSysTick.d" -o "src/FW_Inicializaciones/FW_InicSysTick.o" "../src/FW_Inicializaciones/FW_InicSysTick.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicSysTick.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.o" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -o "src/FW_Inicializaciones/FW_InicTeclado5x1.o" "../src/FW_Inicializaciones/FW_InicTeclado5x1.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitBaseBoard.d" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.o" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.d" -o "src/FW_Inicializaciones/FW_InitBaseBoard.o" "../src/FW_Inicializaciones/FW_InitBaseBoard.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+ 
+Building file: ../src/Drivers/DR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_7Seg.d" -MT"src/Drivers/DR_7Seg.o" -MT"src/Drivers/DR_7Seg.d" -o "src/Drivers/DR_7Seg.o" "../src/Drivers/DR_7Seg.c"
+Finished building: ../src/Drivers/DR_7Seg.c
+ 
+Building file: ../src/Drivers/DR_GPIO.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_GPIO.d" -MT"src/Drivers/DR_GPIO.o" -MT"src/Drivers/DR_GPIO.d" -o "src/Drivers/DR_GPIO.o" "../src/Drivers/DR_GPIO.c"
+Finished building: ../src/Drivers/DR_GPIO.c
+ 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+Finished building: ../src/Drivers/DR_RTC.c
+ 
+Building file: ../src/Drivers/DR_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Systick.d" -MT"src/Drivers/DR_Systick.o" -MT"src/Drivers/DR_Systick.d" -o "src/Drivers/DR_Systick.o" "../src/Drivers/DR_Systick.c"
+Finished building: ../src/Drivers/DR_Systick.c
+ 
+Building file: ../src/Drivers/DR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Teclado5x1.d" -MT"src/Drivers/DR_Teclado5x1.o" -MT"src/Drivers/DR_Teclado5x1.d" -o "src/Drivers/DR_Teclado5x1.o" "../src/Drivers/DR_Teclado5x1.c"
+Finished building: ../src/Drivers/DR_Teclado5x1.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7248 B       512 KB      1.38%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7232	     16	     24	   7272	   1c68	0-TPORiegoGit.axf
+ 
+18:35:10 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:39:20 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+Finished building: ../src/Primitivas/PR_7Seg.c
+ 
+Building file: ../src/Primitivas/PR_MenuLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_MenuLCD.d" -MT"src/Primitivas/PR_MenuLCD.o" -MT"src/Primitivas/PR_MenuLCD.d" -o "src/Primitivas/PR_MenuLCD.o" "../src/Primitivas/PR_MenuLCD.c"
+../src/Primitivas/PR_MenuLCD.c: In function 'Menu_LCD':
+../src/Primitivas/PR_MenuLCD.c:36:3: warning: implicit declaration of function 'ActualizarHora' [-Wimplicit-function-declaration]
+   ActualizarHora();
+   ^
+Finished building: ../src/Primitivas/PR_MenuLCD.c
+ 
+Building file: ../src/Primitivas/PR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_Teclado5x1.d" -MT"src/Primitivas/PR_Teclado5x1.o" -MT"src/Primitivas/PR_Teclado5x1.d" -o "src/Primitivas/PR_Teclado5x1.o" "../src/Primitivas/PR_Teclado5x1.c"
+Finished building: ../src/Primitivas/PR_Teclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.o" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -o "src/FW_Inicializaciones/FW_InicDisplays7seg.o" "../src/FW_Inicializaciones/FW_InicDisplays7seg.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicLCD.d" -MT"src/FW_Inicializaciones/FW_InicLCD.o" -MT"src/FW_Inicializaciones/FW_InicLCD.d" -o "src/FW_Inicializaciones/FW_InicLCD.o" "../src/FW_Inicializaciones/FW_InicLCD.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicLCD.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicRTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicRTC.d" -MT"src/FW_Inicializaciones/FW_InicRTC.o" -MT"src/FW_Inicializaciones/FW_InicRTC.d" -o "src/FW_Inicializaciones/FW_InicRTC.o" "../src/FW_Inicializaciones/FW_InicRTC.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicRTC.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicSysTick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicSysTick.d" -MT"src/FW_Inicializaciones/FW_InicSysTick.o" -MT"src/FW_Inicializaciones/FW_InicSysTick.d" -o "src/FW_Inicializaciones/FW_InicSysTick.o" "../src/FW_Inicializaciones/FW_InicSysTick.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicSysTick.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.o" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -o "src/FW_Inicializaciones/FW_InicTeclado5x1.o" "../src/FW_Inicializaciones/FW_InicTeclado5x1.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitBaseBoard.d" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.o" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.d" -o "src/FW_Inicializaciones/FW_InitBaseBoard.o" "../src/FW_Inicializaciones/FW_InitBaseBoard.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+ 
+Building file: ../src/Drivers/DR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_7Seg.d" -MT"src/Drivers/DR_7Seg.o" -MT"src/Drivers/DR_7Seg.d" -o "src/Drivers/DR_7Seg.o" "../src/Drivers/DR_7Seg.c"
+Finished building: ../src/Drivers/DR_7Seg.c
+ 
+Building file: ../src/Drivers/DR_GPIO.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_GPIO.d" -MT"src/Drivers/DR_GPIO.o" -MT"src/Drivers/DR_GPIO.d" -o "src/Drivers/DR_GPIO.o" "../src/Drivers/DR_GPIO.c"
+Finished building: ../src/Drivers/DR_GPIO.c
+ 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+Finished building: ../src/Drivers/DR_RTC.c
+ 
+Building file: ../src/Drivers/DR_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Systick.d" -MT"src/Drivers/DR_Systick.o" -MT"src/Drivers/DR_Systick.d" -o "src/Drivers/DR_Systick.o" "../src/Drivers/DR_Systick.c"
+Finished building: ../src/Drivers/DR_Systick.c
+ 
+Building file: ../src/Drivers/DR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Teclado5x1.d" -MT"src/Drivers/DR_Teclado5x1.o" -MT"src/Drivers/DR_Teclado5x1.d" -o "src/Drivers/DR_Teclado5x1.o" "../src/Drivers/DR_Teclado5x1.c"
+Finished building: ../src/Drivers/DR_Teclado5x1.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7252 B       512 KB      1.38%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7236	     16	     24	   7276	   1c6c	0-TPORiegoGit.axf
+ 
+18:39:24 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:41:34 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7268 B       512 KB      1.39%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7252	     16	     24	   7292	   1c7c	0-TPORiegoGit.axf
+ 
+18:41:36 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:57:23 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_MenuLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_MenuLCD.d" -MT"src/Primitivas/PR_MenuLCD.o" -MT"src/Primitivas/PR_MenuLCD.d" -o "src/Primitivas/PR_MenuLCD.o" "../src/Primitivas/PR_MenuLCD.c"
+../src/Primitivas/PR_MenuLCD.c: In function 'Menu_LCD':
+../src/Primitivas/PR_MenuLCD.c:36:3: warning: implicit declaration of function 'ActualizarHora' [-Wimplicit-function-declaration]
+   ActualizarHora(uint8_t PosCursor);
+   ^
+../src/Primitivas/PR_MenuLCD.c:36:18: error: expected expression before 'uint8_t'
+   ActualizarHora(uint8_t PosCursor);
+                  ^
+make: *** [src/Primitivas/PR_MenuLCD.o] Error 1
+18:58:37 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+Finished building: ../src/Primitivas/PR_7Seg.c
+ 
+Building file: ../src/Primitivas/PR_MenuLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_MenuLCD.d" -MT"src/Primitivas/PR_MenuLCD.o" -MT"src/Primitivas/PR_MenuLCD.d" -o "src/Primitivas/PR_MenuLCD.o" "../src/Primitivas/PR_MenuLCD.c"
+Finished building: ../src/Primitivas/PR_MenuLCD.c
+ 
+Building file: ../src/Primitivas/PR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_Teclado5x1.d" -MT"src/Primitivas/PR_Teclado5x1.o" -MT"src/Primitivas/PR_Teclado5x1.d" -o "src/Primitivas/PR_Teclado5x1.o" "../src/Primitivas/PR_Teclado5x1.c"
+Finished building: ../src/Primitivas/PR_Teclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.o" -MT"src/FW_Inicializaciones/FW_InicDisplays7seg.d" -o "src/FW_Inicializaciones/FW_InicDisplays7seg.o" "../src/FW_Inicializaciones/FW_InicDisplays7seg.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicDisplays7seg.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicLCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicLCD.d" -MT"src/FW_Inicializaciones/FW_InicLCD.o" -MT"src/FW_Inicializaciones/FW_InicLCD.d" -o "src/FW_Inicializaciones/FW_InicLCD.o" "../src/FW_Inicializaciones/FW_InicLCD.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicLCD.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicRTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicRTC.d" -MT"src/FW_Inicializaciones/FW_InicRTC.o" -MT"src/FW_Inicializaciones/FW_InicRTC.d" -o "src/FW_Inicializaciones/FW_InicRTC.o" "../src/FW_Inicializaciones/FW_InicRTC.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicRTC.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicSysTick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicSysTick.d" -MT"src/FW_Inicializaciones/FW_InicSysTick.o" -MT"src/FW_Inicializaciones/FW_InicSysTick.d" -o "src/FW_Inicializaciones/FW_InicSysTick.o" "../src/FW_Inicializaciones/FW_InicSysTick.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicSysTick.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.o" -MT"src/FW_Inicializaciones/FW_InicTeclado5x1.d" -o "src/FW_Inicializaciones/FW_InicTeclado5x1.o" "../src/FW_Inicializaciones/FW_InicTeclado5x1.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicTeclado5x1.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitBaseBoard.d" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.o" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.d" -o "src/FW_Inicializaciones/FW_InitBaseBoard.o" "../src/FW_Inicializaciones/FW_InitBaseBoard.c"
+Finished building: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+ 
+Building file: ../src/Drivers/DR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_7Seg.d" -MT"src/Drivers/DR_7Seg.o" -MT"src/Drivers/DR_7Seg.d" -o "src/Drivers/DR_7Seg.o" "../src/Drivers/DR_7Seg.c"
+Finished building: ../src/Drivers/DR_7Seg.c
+ 
+Building file: ../src/Drivers/DR_GPIO.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_GPIO.d" -MT"src/Drivers/DR_GPIO.o" -MT"src/Drivers/DR_GPIO.d" -o "src/Drivers/DR_GPIO.o" "../src/Drivers/DR_GPIO.c"
+Finished building: ../src/Drivers/DR_GPIO.c
+ 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+Finished building: ../src/Drivers/DR_RTC.c
+ 
+Building file: ../src/Drivers/DR_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Systick.d" -MT"src/Drivers/DR_Systick.o" -MT"src/Drivers/DR_Systick.d" -o "src/Drivers/DR_Systick.o" "../src/Drivers/DR_Systick.c"
+Finished building: ../src/Drivers/DR_Systick.c
+ 
+Building file: ../src/Drivers/DR_Teclado5x1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_Teclado5x1.d" -MT"src/Drivers/DR_Teclado5x1.o" -MT"src/Drivers/DR_Teclado5x1.d" -o "src/Drivers/DR_Teclado5x1.o" "../src/Drivers/DR_Teclado5x1.c"
+Finished building: ../src/Drivers/DR_Teclado5x1.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7472 B       512 KB      1.43%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7456	     16	     24	   7496	   1d48	0-TPORiegoGit.axf
+ 
+18:58:44 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:58:45 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:59:04 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+18:59:05 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+19:01:02 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7472 B       512 KB      1.43%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7456	     16	     24	   7496	   1d48	0-TPORiegoGit.axf
+ 
+19:01:04 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+19:14:37 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/FW_Inicializaciones/FW_InicRTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InicRTC.d" -MT"src/FW_Inicializaciones/FW_InicRTC.o" -MT"src/FW_Inicializaciones/FW_InicRTC.d" -o "src/FW_Inicializaciones/FW_InicRTC.o" "../src/FW_Inicializaciones/FW_InicRTC.c"
+Finished building: ../src/FW_Inicializaciones/FW_InicRTC.c
+ 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building file: ../src/Drivers/DR_RTC.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_RTC.d" -MT"src/Drivers/DR_RTC.o" -MT"src/Drivers/DR_RTC.d" -o "src/Drivers/DR_RTC.o" "../src/Drivers/DR_RTC.c"
+Finished building: ../src/Drivers/DR_RTC.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7676 B       512 KB      1.46%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7660	     16	     24	   7700	   1e14	0-TPORiegoGit.axf
+ 
+19:14:39 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+19:16:06 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7676 B       512 KB      1.46%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7660	     16	     24	   7700	   1e14	0-TPORiegoGit.axf
+ 
+19:16:08 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+19:20:40 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7668 B       512 KB      1.46%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7652	     16	     24	   7692	   1e0c	0-TPORiegoGit.axf
+ 
+19:20:42 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+19:23:59 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7668 B       512 KB      1.46%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7652	     16	     24	   7692	   1e0c	0-TPORiegoGit.axf
+ 
+19:24:00 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.
+19:24:59 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+Building file: ../src/Drivers/DR_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Lucas\Desktop\Git\info2\MenuLCD\0-TPORiegoGit\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Drivers/DR_LCD.d" -MT"src/Drivers/DR_LCD.o" -MT"src/Drivers/DR_LCD.d" -o "src/Drivers/DR_LCD.o" "../src/Drivers/DR_LCD.c"
+Finished building: ../src/Drivers/DR_LCD.c
+ 
+Building target: 0-TPORiegoGit.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="0-TPORiegoGit.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "0-TPORiego_Debug.ld" -o "0-TPORiegoGit.axf"  ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_MenuLCD.o ./src/Primitivas/PR_Teclado5x1.o  ./src/FW_Inicializaciones/FW_InicDisplays7seg.o ./src/FW_Inicializaciones/FW_InicLCD.o ./src/FW_Inicializaciones/FW_InicRTC.o ./src/FW_Inicializaciones/FW_InicSysTick.o ./src/FW_Inicializaciones/FW_InicTeclado5x1.o ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitOscilador.o  ./src/Drivers/DR_7Seg.o ./src/Drivers/DR_GPIO.o ./src/Drivers/DR_LCD.o ./src/Drivers/DR_RTC.o ./src/Drivers/DR_Systick.o ./src/Drivers/DR_Teclado5x1.o ./src/Drivers/cr_startup_lpc175x_6x.o ./src/Drivers/crp.o  ./src/main.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        7668 B       512 KB      1.46%
+        RamLoc32:          40 B        32 KB      0.12%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: 0-TPORiegoGit.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "0-TPORiegoGit.axf"; # arm-none-eabi-objcopy -v -O binary "0-TPORiegoGit.axf" "0-TPORiegoGit.bin" ; # checksum -p LPC1769 -d "0-TPORiegoGit.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7652	     16	     24	   7692	   1e0c	0-TPORiegoGit.axf
+ 
+19:25:01 **** Incremental Build of configuration Debug for project 0-TPORiegoGit ****
+make -r all 
+make: Nothing to be done for `all'.

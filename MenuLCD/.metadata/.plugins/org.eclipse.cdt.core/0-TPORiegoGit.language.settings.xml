@@ -24,7 +24,117 @@
 						<entry kind="macro" name="__LPC17XX__" value=""/>
 						<entry kind="macro" name="__REDLIB__" value=""/>
 					</resource>
+					<resource project-relative-path="src/FW_Inicializaciones/FW_InicSysTick.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/Drivers/cr_startup_lpc175x_6x.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/Drivers/DR_LCD.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/FW_Inicializaciones/FW_InicDisplays7seg.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/Drivers/DR_Systick.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/Primitivas/PR_Teclado5x1.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/Primitivas/PR_7Seg.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/Primitivas/PR_MenuLCD.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/FW_Inicializaciones/FW_InitOscilador.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
 					<resource project-relative-path="src/main.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/Drivers/DR_RTC.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="src/FW_Inicializaciones/FW_InicRTC.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -74,7 +184,7 @@
 						<entry kind="macro" name="__LPC17XX__" value=""/>
 						<entry kind="macro" name="__REDLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/FW_Inicializaciones/FW_InicSysTick.c">
+					<resource project-relative-path="src/Drivers/DR_GPIO.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -84,7 +194,7 @@
 						<entry kind="macro" name="__LPC17XX__" value=""/>
 						<entry kind="macro" name="__REDLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/FW_Inicializaciones/FW_InicDisplays7seg.c">
+					<resource project-relative-path="src/Drivers/crp.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -104,6 +214,16 @@
 						<entry kind="macro" name="__LPC17XX__" value=""/>
 						<entry kind="macro" name="__REDLIB__" value=""/>
 					</resource>
+					<resource project-relative-path="src/Drivers/DR_Teclado5x1.c">
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+					</resource>
 					<resource project-relative-path="src/FW_Drivers/FW_LCD.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
@@ -114,17 +234,7 @@
 						<entry kind="macro" name="__LPC17XX__" value=""/>
 						<entry kind="macro" name="__REDLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/Primitivas/PR_Teclado5x1.c">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="macro" name="CORE_M3" value=""/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC17XX__" value=""/>
-						<entry kind="macro" name="__REDLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/Primitivas/PR_7Seg.c">
+					<resource project-relative-path="src/Drivers/DR_7Seg.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -144,27 +254,7 @@
 						<entry kind="macro" name="__LPC17XX__" value=""/>
 						<entry kind="macro" name="__REDLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="src/Primitivas/PR_MenuLCD.c">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="macro" name="CORE_M3" value=""/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC17XX__" value=""/>
-						<entry kind="macro" name="__REDLIB__" value=""/>
-					</resource>
 					<resource project-relative-path="src/FW_Inicializaciones/FW_InitBaseBoard.c">
-						<entry kind="includePath" name="/${ProjName}/inc">
-							<flag value="VALUE_WORKSPACE_PATH"/>
-						</entry>
-						<entry kind="macro" name="CORE_M3" value=""/>
-						<entry kind="macro" name="DEBUG" value=""/>
-						<entry kind="macro" name="__CODE_RED" value=""/>
-						<entry kind="macro" name="__LPC17XX__" value=""/>
-						<entry kind="macro" name="__REDLIB__" value=""/>
-					</resource>
-					<resource project-relative-path="src/FW_Inicializaciones/FW_InitOscilador.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>

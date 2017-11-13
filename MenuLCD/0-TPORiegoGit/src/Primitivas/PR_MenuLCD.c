@@ -21,6 +21,8 @@
 
 #include "Aplicacion.h"
 
+extern volatile uint8_t flag_IntMinutos;
+
 void Menu_LCD (uint8_t TeclaPulsada, uint8_t Temperatura, uint8_t Humedad_A, uint8_t Humedad_T) {
 
 	static uint8_t Pantalla=Pantalla_Menu;		// Contiene la pantalla actual
@@ -30,7 +32,9 @@ void Menu_LCD (uint8_t TeclaPulsada, uint8_t Temperatura, uint8_t Humedad_A, uin
 	static uint8_t TemperaturaAnt=0; 			// Contiene la temperatura registrada anteriormente a Temperatura
 	static uint8_t HumedadTAnt=0; 				// Contiene la humedad registrada anteriormente a Humedad_T
 
-	//if (PantallaAnt==Pantalla_Menu) -->Actualizacion de Hora/Fecha, RTC, o lo que sea
+	if (PantallaAnt==Pantalla_Menu && flag_IntMinutos) {
+		ActualizarHora(PosCursor);
+	}
 
 	if (PantallaAnt==Pantalla_Tierra && HumedadTAnt!=Humedad_T) {
 		//Si permanezco en Pantalla_Tierra y cambió Humedad_T:

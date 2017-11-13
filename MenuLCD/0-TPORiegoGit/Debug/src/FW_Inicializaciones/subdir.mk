@@ -6,6 +6,7 @@
 C_SRCS += \
 ../src/FW_Inicializaciones/FW_InicDisplays7seg.c \
 ../src/FW_Inicializaciones/FW_InicLCD.c \
+../src/FW_Inicializaciones/FW_InicRTC.c \
 ../src/FW_Inicializaciones/FW_InicSysTick.c \
 ../src/FW_Inicializaciones/FW_InicTeclado5x1.c \
 ../src/FW_Inicializaciones/FW_InitBaseBoard.c \
@@ -14,6 +15,7 @@ C_SRCS += \
 OBJS += \
 ./src/FW_Inicializaciones/FW_InicDisplays7seg.o \
 ./src/FW_Inicializaciones/FW_InicLCD.o \
+./src/FW_Inicializaciones/FW_InicRTC.o \
 ./src/FW_Inicializaciones/FW_InicSysTick.o \
 ./src/FW_Inicializaciones/FW_InicTeclado5x1.o \
 ./src/FW_Inicializaciones/FW_InitBaseBoard.o \
@@ -22,6 +24,7 @@ OBJS += \
 C_DEPS += \
 ./src/FW_Inicializaciones/FW_InicDisplays7seg.d \
 ./src/FW_Inicializaciones/FW_InicLCD.d \
+./src/FW_Inicializaciones/FW_InicRTC.d \
 ./src/FW_Inicializaciones/FW_InicSysTick.d \
 ./src/FW_Inicializaciones/FW_InicTeclado5x1.d \
 ./src/FW_Inicializaciones/FW_InitBaseBoard.d \
