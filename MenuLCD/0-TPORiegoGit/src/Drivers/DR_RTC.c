@@ -1,8 +1,8 @@
 /**
- \file		: KitInfo2FW_RTC.c
- \brief     : Rutinas de RTC
- \details   :
- \author    : GOS
+ \file		DR_RTC.c
+ \brief     Drivers de RTC
+ \author    GOS -
+ Modificado para TPO por Grupo 6 (R2001 - 2017)
  \date 	    : 2014.05.06
 */
 

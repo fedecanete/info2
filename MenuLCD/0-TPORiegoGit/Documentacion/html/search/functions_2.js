@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['latchlcd',['LatchLcd',['../_f_w___l_c_d_8c.html#a2d462feafd87d8302ef1514f3b023c4a',1,'FW_LCD.c']]],
-  ['lcddelay',['LCDDelay',['../_f_w___l_c_d_8c.html#ae21f6a9b27d21786785a87e4230d5a44',1,'FW_LCD.c']]]
+  ['rtc_5fgethorafecha',['RTC_GetHoraFecha',['../_d_r___r_t_c_8c.html#a4f661d366aa5a86551d7cb91f6008edc',1,'DR_RTC.c']]],
+  ['rtc_5firqhandler',['RTC_IRQHandler',['../_d_r___r_t_c_8c.html#ab86b9dd0d7b4eacfe38086e1fa4c2312',1,'DR_RTC.c']]],
+  ['rtc_5fsethorafecha',['RTC_SetHoraFecha',['../_d_r___r_t_c_8c.html#a1eddc743b19dbf6a19255f408eadad77',1,'DR_RTC.c']]]
 ];

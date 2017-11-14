@@ -17,7 +17,7 @@
 #include "Display-Expansion2.h"
 #include "RTC.h"
 
-void Menu_LCD (uint8_t, uint8_t, uint8_t, uint8_t);
+void Menu_LCD (uint8_t);
 
 //Defines de  Teclado combinado con LCD
 #define 	T_SUMAR			1

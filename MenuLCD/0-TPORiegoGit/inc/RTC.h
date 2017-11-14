@@ -1,8 +1,6 @@
 /**
  \file		: KitInfo2FW_RTC.h
  \brief     : Header de rutinas de RTC
- \details   :
- \author    : Cátedra Info 2
 */
 
 #ifndef RTC_H_

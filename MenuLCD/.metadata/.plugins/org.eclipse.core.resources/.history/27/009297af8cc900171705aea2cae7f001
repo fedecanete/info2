@@ -1,0 +1,114 @@
+/**
+ \file		: DR_RTC.c
+ \brief     : Drivers de RTC
+ \author    : GOS
+ Modificado para TPO por Grupo 6 (2017)
+ \date 	    : 2014.05.06
+*/
+
+
+#include "Aplicacion.h"
+
+extern volatile uint8_t flag_RiegoAut;
+extern volatile uint8_t flag_IntMinutos;
+
+/**
+ * \fn 		void RTC_HabilitaInterrupcion(uint32_t tipo_int)
+ * \brief 	Inicializacion de interrupción del RTC
+ * \details
+ * \author 	GOS
+ * \date   	2014.05.06
+ * \param 	[in] uint32_t tipo_int (Indica causa de la interrupción)
+ * \return 	void
+ * */
+void RTC_HabilitarIntContador (uint32_t tipo_int)
+{
+	RTCCIIR |= 1<< tipo_int;	//se habilita el tipo de interrupcion pedido
+	RTCILR = 0x03;				//limpio flags de interrupcion
+	ISER0 |= 1<<17;				//habilito interrupcion desde el NVIC
+}
+
+void RTC_HabilitarRiegoAut (uint8_t Hora, uint8_t Minuto)
+{
+	RTCAMR &= ~(0x0000007F);	// limpio los primeros 7 bits
+	RTCAMR |= 0x78;				// enmascaro los 7 menos el de hora y minutos
+	RTCALSEC=0;
+	RTCALMIN=Minuto;
+	RTCALHOUR=Hora;
+	RTCILR = 0x03;				// limpio flags de interrupcion
+	ISER0 |= 1<<17;				// habilito interrupcion desde el NVIC
+}
+
+/**
+ * \fn 		void RTC_SetHoraFecha(RTC_HoraFecha* horafecha)
+ * \brief 	Pone en fecha y hora al RTC
+ * \details
+ * \author 	GOS
+ * \date   	2014.05.06
+ * \param 	[in] RTC_HoraFecha* horafecha (Puntero a estructura de datos iniciales del RTC)
+ * \return 	void
+ * */
+void RTC_SetHoraFecha(RTC_HoraFecha* horafecha)
+{
+	RTCSEC = 0;
+	RTCMIN = horafecha->min;
+	RTCHOUR = horafecha->hora;
+	RTCDOM = horafecha->dia_mes;
+	//RTCDOW = horafecha->dia_semana;
+	//RTCDOY = horafecha->dia_anio;
+	RTCMONTH = horafecha->mes;
+	RTCYEAR = horafecha->anio;
+}
+
+/**
+ * \fn 		void RTC_GetHoraFecha(RTC_HoraFecha* horafecha)
+ * \brief 	Lee el RTC
+ * \details
+ * \author 	GOS
+ * \date   	2014.05.06
+ * \param 	[in] RTC_HoraFecha* horafecha (Destino de los datos del RTC)
+ * \return 	void
+ * */
+void RTC_GetHoraFecha(RTC_HoraFecha* horafecha)
+{
+	horafecha->seg = RTCSEC;
+	horafecha->min = RTCMIN;
+	horafecha->hora = RTCHOUR;
+	horafecha->dia_mes = RTCDOM;
+	horafecha->dia_semana = RTCDOW;
+	horafecha->dia_anio = RTCDOY;
+	horafecha->mes = RTCMONTH;
+	horafecha->anio = RTCYEAR;
+}
+
+/**
+ * \fn 		void RTC_IRQHandler(void)
+ * \brief 	ISR del RTC
+ * \details
+ * \author 	GOS
+ * \date   	2014.05.06
+ * \param 	[in] void
+ * \return 	void
+ * */
+void RTC_IRQHandler(void)
+{
+	if (RTCILR & 1) flag_IntMinutos=1;
+	RTCILR |= 0xFF;		//limpio todos los flags de interrupcion
+	flag_RiegoAut = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
