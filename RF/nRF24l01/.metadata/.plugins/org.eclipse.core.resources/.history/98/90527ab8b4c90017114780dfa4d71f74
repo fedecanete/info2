@@ -1,0 +1,14 @@
+/*
+ * FW_nRF.h
+ *
+ *  Created on: 14 de nov. de 2017
+ *      Author: fedec
+ */
+
+#ifndef FW_NRF_H_
+#define FW_NRF_H_
+
+//Función que inicializa los pines del nRF24l01
+Init_nRF();
+
+#endif /* FW_NRF_H_ */

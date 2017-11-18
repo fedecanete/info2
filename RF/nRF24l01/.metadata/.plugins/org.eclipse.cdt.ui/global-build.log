@@ -1,0 +1,398 @@
+12:16:24 **** Build of configuration Debug for project test_RF ****
+make -r all 
+Building file: ../src/Primitivas/KitInfo2PR_Teclado.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/KitInfo2PR_Teclado.d" -MT"src/Primitivas/KitInfo2PR_Teclado.o" -MT"src/Primitivas/KitInfo2PR_Teclado.d" -o "src/Primitivas/KitInfo2PR_Teclado.o" "../src/Primitivas/KitInfo2PR_Teclado.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/Primitivas/KitInfo2PR_Teclado.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/Primitivas/KitInfo2PR_Teclado.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/Primitivas/KitInfo2PR_Teclado.c
+ 
+Building file: ../src/Primitivas/PR_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_7Seg.d" -MT"src/Primitivas/PR_7Seg.o" -MT"src/Primitivas/PR_7Seg.d" -o "src/Primitivas/PR_7Seg.o" "../src/Primitivas/PR_7Seg.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:12,
+                 from ../src/Primitivas/PR_7Seg.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/Primitivas/PR_7Seg.c
+ 
+Building file: ../src/Primitivas/PR_SSP1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_SSP1.d" -MT"src/Primitivas/PR_SSP1.o" -MT"src/Primitivas/PR_SSP1.d" -o "src/Primitivas/PR_SSP1.o" "../src/Primitivas/PR_SSP1.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_SSP.h:11,
+                 from ../src/Primitivas/PR_SSP1.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/Primitivas/PR_SSP1.c
+ 
+Building file: ../src/Primitivas/PR_Timers.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_Timers.d" -MT"src/Primitivas/PR_Timers.o" -MT"src/Primitivas/PR_Timers.d" -o "src/Primitivas/PR_Timers.o" "../src/Primitivas/PR_Timers.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/KitInfo2_BaseBoard.h:11,
+                 from ../src/Primitivas/PR_Timers.c:1:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/KitInfo2_BaseBoard.h:11,
+                 from ../src/Primitivas/PR_Timers.c:1:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/Primitivas/PR_Timers.c
+ 
+Building file: ../src/Primitivas/PR_nRF.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Primitivas/PR_nRF.d" -MT"src/Primitivas/PR_nRF.o" -MT"src/Primitivas/PR_nRF.d" -o "src/Primitivas/PR_nRF.o" "../src/Primitivas/PR_nRF.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/Primitivas/PR_nRF.c:7:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/Primitivas/PR_nRF.c:7:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/Primitivas/PR_nRF.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitBaseBoard.d" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.o" -MT"src/FW_Inicializaciones/FW_InitBaseBoard.d" -o "src/FW_Inicializaciones/FW_InitBaseBoard.o" "../src/FW_Inicializaciones/FW_InitBaseBoard.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/KitInfo2_BaseBoard.h:11,
+                 from ../src/FW_Inicializaciones/FW_InitBaseBoard.c:2:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Inicializaciones/FW_InitBaseBoard.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitExpansion3.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitExpansion3.d" -MT"src/FW_Inicializaciones/FW_InitExpansion3.o" -MT"src/FW_Inicializaciones/FW_InitExpansion3.d" -o "src/FW_Inicializaciones/FW_InitExpansion3.o" "../src/FW_Inicializaciones/FW_InitExpansion3.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/KitInfo2_BaseBoard.h:11,
+                 from ../src/FW_Inicializaciones/FW_InitExpansion3.c:10:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Inicializaciones/FW_InitExpansion3.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitKit_principal.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitKit_principal.d" -MT"src/FW_Inicializaciones/FW_InitKit_principal.o" -MT"src/FW_Inicializaciones/FW_InitKit_principal.d" -o "src/FW_Inicializaciones/FW_InitKit_principal.o" "../src/FW_Inicializaciones/FW_InitKit_principal.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/FW_Inicializaciones/FW_InitKit_principal.c:5:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/FW_Inicializaciones/FW_InitKit_principal.c:5:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Inicializaciones/FW_InitKit_principal.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_InitSSP.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_InitSSP.d" -MT"src/FW_Inicializaciones/FW_InitSSP.o" -MT"src/FW_Inicializaciones/FW_InitSSP.d" -o "src/FW_Inicializaciones/FW_InitSSP.o" "../src/FW_Inicializaciones/FW_InitSSP.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/FW_Inicializaciones/FW_InitSSP.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/FW_Inicializaciones/FW_InitSSP.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Inicializaciones/FW_InitSSP.c
+ 
+Building file: ../src/FW_Inicializaciones/FW_Init_nRF.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Inicializaciones/FW_Init_nRF.d" -MT"src/FW_Inicializaciones/FW_Init_nRF.o" -MT"src/FW_Inicializaciones/FW_Init_nRF.d" -o "src/FW_Inicializaciones/FW_Init_nRF.o" "../src/FW_Inicializaciones/FW_Init_nRF.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/FW_Inicializaciones/FW_Init_nRF.c:7:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/FW_Inicializaciones/FW_Init_nRF.c:7:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Inicializaciones/FW_Init_nRF.c
+ 
+Building file: ../src/FW_Drivers/Entradas_FW.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/Entradas_FW.d" -MT"src/FW_Drivers/Entradas_FW.o" -MT"src/FW_Drivers/Entradas_FW.d" -o "src/FW_Drivers/Entradas_FW.o" "../src/FW_Drivers/Entradas_FW.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/FW_Drivers/Entradas_FW.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/FW_Drivers/Entradas_FW.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Drivers/Entradas_FW.c
+ 
+Building file: ../src/FW_Drivers/FW_7Seg.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_7Seg.d" -MT"src/FW_Drivers/FW_7Seg.o" -MT"src/FW_Drivers/FW_7Seg.d" -o "src/FW_Drivers/FW_7Seg.o" "../src/FW_Drivers/FW_7Seg.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/KitInfo2_BaseBoard.h:11,
+                 from ../src/FW_Drivers/FW_7Seg.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/KitInfo2_BaseBoard.h:11,
+                 from ../src/FW_Drivers/FW_7Seg.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Drivers/FW_7Seg.c
+ 
+Building file: ../src/FW_Drivers/FW_LCD.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_LCD.d" -MT"src/FW_Drivers/FW_LCD.o" -MT"src/FW_Drivers/FW_LCD.d" -o "src/FW_Drivers/FW_LCD.o" "../src/FW_Drivers/FW_LCD.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/KitInfo2_BaseBoard.h:11,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/lcd.h:19,
+                 from ../src/FW_Drivers/FW_LCD.c:12:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/KitInfo2_BaseBoard.h:11,
+                 from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/lcd.h:19,
+                 from ../src/FW_Drivers/FW_LCD.c:12:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Drivers/FW_LCD.c
+ 
+Building file: ../src/FW_Drivers/FW_SSP1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_SSP1.d" -MT"src/FW_Drivers/FW_SSP1.o" -MT"src/FW_Drivers/FW_SSP1.d" -o "src/FW_Drivers/FW_SSP1.o" "../src/FW_Drivers/FW_SSP1.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/FW_Drivers/FW_SSP1.c:7:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/FW_Drivers/FW_SSP1.c:7:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Drivers/FW_SSP1.c
+ 
+Building file: ../src/FW_Drivers/FW_Systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_Systick.d" -MT"src/FW_Drivers/FW_Systick.o" -MT"src/FW_Drivers/FW_Systick.d" -o "src/FW_Drivers/FW_Systick.o" "../src/FW_Drivers/FW_Systick.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/FW_Drivers/FW_Systick.c:1:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/FW_Drivers/FW_Systick.c:1:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Drivers/FW_Systick.c
+ 
+Building file: ../src/FW_Drivers/FW_nRF.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/FW_nRF.d" -MT"src/FW_Drivers/FW_nRF.o" -MT"src/FW_Drivers/FW_nRF.d" -o "src/FW_Drivers/FW_nRF.o" "../src/FW_Drivers/FW_nRF.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/FW_Drivers/FW_nRF.c:7:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/FW_Drivers/FW_nRF.c:7:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Drivers/FW_nRF.c
+ 
+Building file: ../src/FW_Drivers/KitInfo2FW_Teclado.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FW_Drivers/KitInfo2FW_Teclado.d" -MT"src/FW_Drivers/KitInfo2FW_Teclado.o" -MT"src/FW_Drivers/KitInfo2FW_Teclado.d" -o "src/FW_Drivers/KitInfo2FW_Teclado.o" "../src/FW_Drivers/KitInfo2FW_Teclado.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/FW_Drivers/KitInfo2FW_Teclado.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/FW_Drivers/KitInfo2FW_Teclado.c:9:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/FW_Drivers/KitInfo2FW_Teclado.c
+ 
+Building file: ../src/Aplicacion.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Aplicacion.d" -MT"src/Aplicacion.o" -MT"src/Aplicacion.d" -o "src/Aplicacion.o" "../src/Aplicacion.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/Aplicacion.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/Aplicacion.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+../src/Aplicacion.c: In function 'Aplicacion':
+../src/Aplicacion.c:76:36: warning: passing argument 3 of 'RWnRF' from incompatible pointer type [-Wincompatible-pointer-types]
+        RWnRF (W_REGISTER, TX_ADDR, &test_reg, 5);
+                                    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:23:0,
+                 from ../src/Aplicacion.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_nRF.h:16:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'uint8_t (*)[5] {aka unsigned char (*)[5]}'
+ void RWnRF (uint8_t cmd, uint8_t reg, uint8_t *package, uint8_t size);
+      ^
+../src/Aplicacion.c:83:39: warning: passing argument 3 of 'RWnRF' from incompatible pointer type [-Wincompatible-pointer-types]
+        RWnRF (R_REGISTER, RX_ADDR_P1, &test_reg, 5);
+                                       ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:23:0,
+                 from ../src/Aplicacion.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_nRF.h:16:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'uint8_t (*)[5] {aka unsigned char (*)[5]}'
+ void RWnRF (uint8_t cmd, uint8_t reg, uint8_t *package, uint8_t size);
+      ^
+../src/Aplicacion.c:84:36: warning: passing argument 3 of 'RWnRF' from incompatible pointer type [-Wincompatible-pointer-types]
+        RWnRF (R_REGISTER, TX_ADDR, &test_reg, 5);
+                                    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:23:0,
+                 from ../src/Aplicacion.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_nRF.h:16:6: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'uint8_t (*)[5] {aka unsigned char (*)[5]}'
+ void RWnRF (uint8_t cmd, uint8_t reg, uint8_t *package, uint8_t size);
+      ^
+../src/Aplicacion.c:94:20: warning: passing argument 1 of 'DisplayLCD' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+        DisplayLCD (msg_ptr,0,4); //Muestro lo que mandé
+                    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:19:0,
+                 from ../src/Aplicacion.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/lcd.h:68:6: note: expected 'char *' but argument is of type 'volatile char *'
+ void DisplayLCD (char * msg, uint8_t r , uint8_t pos);
+      ^
+../src/Aplicacion.c:111:20: warning: passing argument 1 of 'DisplayLCD' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+        DisplayLCD (msg_cad,1,4+i); //Muestro lo que recibí
+                    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:19:0,
+                 from ../src/Aplicacion.c:8:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/lcd.h:68:6: note: expected 'char *' but argument is of type 'volatile uint8_t * {aka volatile unsigned char *}'
+ void DisplayLCD (char * msg, uint8_t r , uint8_t pos);
+      ^
+../src/Aplicacion.c:49:20: warning: unused variable 'status' [-Wunused-variable]
+   uint8_t i=0,j=0, status, test_reg[5]={1,2,3,4,5};
+                    ^
+../src/Aplicacion.c:49:15: warning: unused variable 'j' [-Wunused-variable]
+   uint8_t i=0,j=0, status, test_reg[5]={1,2,3,4,5};
+               ^
+Finished building: ../src/Aplicacion.c
+ 
+Building file: ../src/test_RF.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"C:\Repositorio\info2\RF\nRF24l01\test_RF\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/test_RF.d" -MT"src/test_RF.o" -MT"src/test_RF.d" -o "src/test_RF.o" "../src/test_RF.c"
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:11:0,
+                 from ../src/test_RF.c:27:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/FW_Display_Exp3.h:50:4: warning: parameter names (without types) in function declaration
+    void Display (uint32_t );
+    ^
+In file included from C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/Aplicacion.h:22:0,
+                 from ../src/test_RF.c:27:
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:29:0: warning: "AW_5BYTES" redefined
+ #define AW_5BYTES 0x03
+ ^
+C:\Repositorio\info2\RF\nRF24l01\test_RF\inc/nRF24l01.h:28:0: note: this is the location of the previous definition
+ #define AW_5BYTES 0x02
+ ^
+Finished building: ../src/test_RF.c
+ 
+Building target: test_RF.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="test_RF.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "test_RF_Debug.ld" -o "test_RF.axf"  ./src/Primitivas/KitInfo2PR_Teclado.o ./src/Primitivas/PR_7Seg.o ./src/Primitivas/PR_SSP1.o ./src/Primitivas/PR_Timers.o ./src/Primitivas/PR_nRF.o  ./src/FW_Inicializaciones/FW_InitBaseBoard.o ./src/FW_Inicializaciones/FW_InitExpansion3.o ./src/FW_Inicializaciones/FW_InitKit_principal.o ./src/FW_Inicializaciones/FW_InitOscilador.o ./src/FW_Inicializaciones/FW_InitSSP.o ./src/FW_Inicializaciones/FW_Init_nRF.o ./src/FW_Inicializaciones/cr_startup_lpc176x.o  ./src/FW_Drivers/Entradas_FW.o ./src/FW_Drivers/FW_7Seg.o ./src/FW_Drivers/FW_GPIO.o ./src/FW_Drivers/FW_LCD.o ./src/FW_Drivers/FW_SSP1.o ./src/FW_Drivers/FW_Systick.o ./src/FW_Drivers/FW_nRF.o ./src/FW_Drivers/KitInfo2FW_Teclado.o  ./src/Aplicacion.o ./src/crp.o ./src/test_RF.o   
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        6348 B       512 KB      1.21%
+        RamLoc32:         332 B        32 KB      1.01%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: test_RF.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "test_RF.axf"; # arm-none-eabi-objcopy -v -O binary "test_RF.axf" "test_RF.bin" ; # checksum -p LPC1769 -d "test_RF.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6296	     52	    280	   6628	   19e4	test_RF.axf
+ 

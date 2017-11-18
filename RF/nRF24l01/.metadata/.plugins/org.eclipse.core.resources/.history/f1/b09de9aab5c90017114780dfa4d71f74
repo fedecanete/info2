@@ -1,0 +1,36 @@
+/*
+ * PR_nRF.c
+ *
+ *  Created on: 14 de nov. de 2017
+ *      Author: fedec
+ */
+#include "Aplicacion.h"
+
+volatile uint8_t nRF_Status_Reg;
+
+void RWnRF (uint8_t cmd, uint8_t reg, uint8_t *package, uint8_t size)
+{
+	uint8_t i;
+	if (cmd == W)
+		reg = W_REGISTER+reg;
+	SetPIN(pin_CSN,0);
+	nRF_Status_Reg=SendReceiveSSP(reg);
+	//Tal vez hagan falta demoras
+	for (i=0; i<size;i++)
+	{
+		if (cmd==R && reg!=W_TX_PAYLOAD)
+		{
+			*(package+i)=SendReceiveSSP(NOP);
+			//delay?
+
+		}
+		else
+		{
+			SendReceiveSSP(*(package+i));//dont care about return value
+			//delay?
+		}
+
+	}
+	SetPIN(pin_CSN, 1);
+
+}

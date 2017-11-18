@@ -1,0 +1,1429 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/FW_Inicializaciones/cr_startup_lpc176x.o (__main)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .text          0x00000000        0x0 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .data          0x00000000        0x0 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .bss           0x00000000        0x0 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .text.Teclado  0x00000000       0x30 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_info    0x00000000       0x7d ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_abbrev  0x00000000       0x6b ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_aranges
+                0x00000000       0x20 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_ranges  0x00000000       0x10 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0xa6 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000      0x886 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0x64 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000      0x421 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0x5e ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0x46 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000      0x172 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0xfa ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0x8e ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0x34 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0xb8 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0x40 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000      0x1d0 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000      0x24d ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_macro   0x00000000       0x2e ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_line    0x00000000      0x156 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_str     0x00000000     0x4de1 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .comment       0x00000000       0x6f ./src/Primitivas/KitInfo2PR_Teclado.o
+ .debug_frame   0x00000000       0x38 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/Primitivas/KitInfo2PR_Teclado.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_7Seg.o
+ .text          0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+ .data          0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+ .bss           0x00000000        0x0 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x886 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x421 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x5e ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x172 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0xfa ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x8e ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x34 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0xb8 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x40 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x1d0 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x24d ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x2e ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x64 ./src/Primitivas/PR_7Seg.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_SSP1.o
+ .text          0x00000000        0x0 ./src/Primitivas/PR_SSP1.o
+ .data          0x00000000        0x0 ./src/Primitivas/PR_SSP1.o
+ .bss           0x00000000        0x0 ./src/Primitivas/PR_SSP1.o
+ .bss.veces     0x00000000        0x1 ./src/Primitivas/PR_SSP1.o
+ .text.WriteTx  0x00000000       0xe4 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000      0x886 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000      0x421 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000       0x64 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000      0x172 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000       0xfa ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000       0x8e ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000       0x34 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000       0xb8 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000       0x40 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000      0x24d ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000       0x2e ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000000       0x40 ./src/Primitivas/PR_SSP1.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_Timers.o
+ .text          0x00000000        0x0 ./src/Primitivas/PR_Timers.o
+ .data          0x00000000        0x0 ./src/Primitivas/PR_Timers.o
+ .bss           0x00000000        0x0 ./src/Primitivas/PR_Timers.o
+ .text.TmrClose
+                0x00000000       0x50 ./src/Primitivas/PR_Timers.o
+ .text.TmrStop  0x00000000       0x5c ./src/Primitivas/PR_Timers.o
+ .text.TmrEvent
+                0x00000000        0xc ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000      0x886 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0x64 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000      0x421 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0x5e ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0x46 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0xfa ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0x8e ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0x34 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0xb8 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0x40 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000      0x1d0 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000      0x24d ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x00000000       0x2e ./src/Primitivas/PR_Timers.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/Primitivas/PR_nRF.o
+ .text          0x00000000        0x0 ./src/Primitivas/PR_nRF.o
+ .data          0x00000000        0x0 ./src/Primitivas/PR_nRF.o
+ .bss           0x00000000        0x0 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000      0x886 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0x64 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000      0x421 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0x5e ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0x46 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000      0x172 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0xfa ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0x8e ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0x34 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0xb8 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0x40 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000      0x1d0 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000      0x24d ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x00000000       0x2e ./src/Primitivas/PR_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000000      0x16c ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x00000000      0x16c ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x172 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000      0x172 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Inicializaciones/FW_InitSSP.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000      0x172 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/Entradas_FW.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/Entradas_FW.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/Entradas_FW.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/Entradas_FW.o
+ .text.Debounce
+                0x00000000      0x120 ./src/FW_Drivers/Entradas_FW.o
+ .bss.ContadorEstados.3844
+                0x00000000        0x5 ./src/FW_Drivers/Entradas_FW.o
+ .debug_info    0x00000000       0xb2 ./src/FW_Drivers/Entradas_FW.o
+ .debug_abbrev  0x00000000       0x91 ./src/FW_Drivers/Entradas_FW.o
+ .debug_aranges
+                0x00000000       0x20 ./src/FW_Drivers/Entradas_FW.o
+ .debug_ranges  0x00000000       0x10 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0xa6 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000      0x172 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Drivers/Entradas_FW.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Drivers/Entradas_FW.o
+ .debug_line    0x00000000      0x180 ./src/FW_Drivers/Entradas_FW.o
+ .debug_str     0x00000000     0x4dfd ./src/FW_Drivers/Entradas_FW.o
+ .comment       0x00000000       0x6f ./src/FW_Drivers/Entradas_FW.o
+ .debug_frame   0x00000000       0x34 ./src/FW_Drivers/Entradas_FW.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/FW_Drivers/Entradas_FW.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_7Seg.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_7Seg.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_7Seg.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000000      0x16c ./src/FW_Drivers/FW_7Seg.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_GPIO.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_GPIO.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_GPIO.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_GPIO.o
+ .text.SetMODE_OD
+                0x00000000       0x60 ./src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Drivers/FW_GPIO.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_LCD.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_LCD.o
+ .text.Conversor
+                0x00000000       0xd8 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000000      0x16c ./src/FW_Drivers/FW_LCD.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_SSP1.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_SSP1.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_SSP1.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_SSP1.o
+ .bss.SSP1_status
+                0x00000000        0x1 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000      0x172 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Drivers/FW_SSP1.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_Systick.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_Systick.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_Systick.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_Systick.o
+ .bss.aux_enviadas
+                0x00000000        0x4 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x172 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Drivers/FW_Systick.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/FW_nRF.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/FW_nRF.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/FW_nRF.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/FW_nRF.o
+ .text.nRF_Init_as_Tx
+                0x00000000      0x134 ./src/FW_Drivers/FW_nRF.o
+ .debug_info    0x00000000       0x91 ./src/FW_Drivers/FW_nRF.o
+ .debug_abbrev  0x00000000       0x6a ./src/FW_Drivers/FW_nRF.o
+ .debug_aranges
+                0x00000000       0x20 ./src/FW_Drivers/FW_nRF.o
+ .debug_ranges  0x00000000       0x10 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0xa6 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000      0x172 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Drivers/FW_nRF.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Drivers/FW_nRF.o
+ .debug_line    0x00000000      0x183 ./src/FW_Drivers/FW_nRF.o
+ .debug_str     0x00000000     0x4dd7 ./src/FW_Drivers/FW_nRF.o
+ .comment       0x00000000       0x6f ./src/FW_Drivers/FW_nRF.o
+ .debug_frame   0x00000000       0x34 ./src/FW_Drivers/FW_nRF.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/FW_Drivers/FW_nRF.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .text          0x00000000        0x0 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .data          0x00000000        0x0 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .bss           0x00000000        0x0 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .text.DriverTeclado
+                0x00000000       0x20 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .text.TecladoSW
+                0x00000000       0xb4 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .text.TecladoHW
+                0x00000000       0xfc ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .data.codAnt.3847
+                0x00000000        0x1 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .bss.estado.3848
+                0x00000000        0x1 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_info    0x00000000       0xf8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_abbrev  0x00000000       0xc4 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_aranges
+                0x00000000       0x30 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_ranges  0x00000000       0x20 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xa6 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x886 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x64 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x421 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x5e ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x46 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x172 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xfa ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x8e ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x34 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0xb8 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x40 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x1d0 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000      0x24d ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_macro   0x00000000       0x2e ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_line    0x00000000      0x1f0 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_str     0x00000000     0x4e1c ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .comment       0x00000000       0x6f ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .debug_frame   0x00000000       0x80 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/FW_Drivers/KitInfo2FW_Teclado.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/Aplicacion.o
+ .text          0x00000000        0x0 ./src/Aplicacion.o
+ .data          0x00000000        0x0 ./src/Aplicacion.o
+ .bss           0x00000000        0x0 ./src/Aplicacion.o
+ .data.olakease
+                0x00000000        0xb ./src/Aplicacion.o
+ .bss.full_word
+                0x00000000        0x1 ./src/Aplicacion.o
+ .data.llenar_buffer
+                0x00000000        0x1 ./src/Aplicacion.o
+ .debug_macro   0x00000000      0x886 ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x64 ./src/Aplicacion.o
+ .debug_macro   0x00000000      0x421 ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x5e ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x46 ./src/Aplicacion.o
+ .debug_macro   0x00000000      0x172 ./src/Aplicacion.o
+ .debug_macro   0x00000000       0xfa ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x8e ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x34 ./src/Aplicacion.o
+ .debug_macro   0x00000000       0xb8 ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x40 ./src/Aplicacion.o
+ .debug_macro   0x00000000      0x1d0 ./src/Aplicacion.o
+ .debug_macro   0x00000000      0x24d ./src/Aplicacion.o
+ .debug_macro   0x00000000       0x2e ./src/Aplicacion.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .crp           0x00000000        0x4 ./src/crp.o
+ .debug_info    0x00000000       0x3f ./src/crp.o
+ .debug_abbrev  0x00000000       0x36 ./src/crp.o
+ .debug_aranges
+                0x00000000       0x18 ./src/crp.o
+ .debug_macro   0x00000000       0x1a ./src/crp.o
+ .debug_macro   0x00000000      0x886 ./src/crp.o
+ .debug_macro   0x00000000       0x34 ./src/crp.o
+ .debug_line    0x00000000       0x78 ./src/crp.o
+ .debug_str     0x00000000     0x259d ./src/crp.o
+ .comment       0x00000000       0x6f ./src/crp.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/crp.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .group         0x00000000        0x8 ./src/test_RF.o
+ .text          0x00000000        0x0 ./src/test_RF.o
+ .data          0x00000000        0x0 ./src/test_RF.o
+ .bss           0x00000000        0x0 ./src/test_RF.o
+ .bss.BufferEntradas
+                0x00000000        0x1 ./src/test_RF.o
+ .bss.DemoraLCD
+                0x00000000        0x4 ./src/test_RF.o
+ .bss.bufferLCD
+                0x00000000       0xa0 ./src/test_RF.o
+ .bss.msg       0x00000000       0x14 ./src/test_RF.o
+ .bss.ptrLecturaLCD
+                0x00000000        0x1 ./src/test_RF.o
+ .bss.ptrEscrituraLCD
+                0x00000000        0x1 ./src/test_RF.o
+ .bss.entero_ascii
+                0x00000000        0x6 ./src/test_RF.o
+ .bss.f_refresh_LCD
+                0x00000000        0x1 ./src/test_RF.o
+ .bss.flags_int_ssp1
+                0x00000000        0x4 ./src/test_RF.o
+ .bss.SSP1_TxIn_Idx
+                0x00000000        0x1 ./src/test_RF.o
+ .debug_macro   0x00000000      0x886 ./src/test_RF.o
+ .debug_macro   0x00000000       0x64 ./src/test_RF.o
+ .debug_macro   0x00000000      0x421 ./src/test_RF.o
+ .debug_macro   0x00000000       0x5e ./src/test_RF.o
+ .debug_macro   0x00000000       0x46 ./src/test_RF.o
+ .debug_macro   0x00000000      0x172 ./src/test_RF.o
+ .debug_macro   0x00000000       0xfa ./src/test_RF.o
+ .debug_macro   0x00000000       0x8e ./src/test_RF.o
+ .debug_macro   0x00000000       0x34 ./src/test_RF.o
+ .debug_macro   0x00000000       0xb8 ./src/test_RF.o
+ .debug_macro   0x00000000       0x40 ./src/test_RF.o
+ .debug_macro   0x00000000      0x1d0 ./src/test_RF.o
+ .debug_macro   0x00000000      0x24d ./src/test_RF.o
+ .debug_macro   0x00000000       0x2e ./src/test_RF.o
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/Primitivas/KitInfo2PR_Teclado.o
+LOAD ./src/Primitivas/PR_7Seg.o
+LOAD ./src/Primitivas/PR_SSP1.o
+LOAD ./src/Primitivas/PR_Timers.o
+LOAD ./src/Primitivas/PR_nRF.o
+LOAD ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+LOAD ./src/FW_Inicializaciones/FW_InitExpansion3.o
+LOAD ./src/FW_Inicializaciones/FW_InitKit_principal.o
+LOAD ./src/FW_Inicializaciones/FW_InitOscilador.o
+LOAD ./src/FW_Inicializaciones/FW_InitSSP.o
+LOAD ./src/FW_Inicializaciones/FW_Init_nRF.o
+LOAD ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+LOAD ./src/FW_Drivers/Entradas_FW.o
+LOAD ./src/FW_Drivers/FW_7Seg.o
+LOAD ./src/FW_Drivers/FW_GPIO.o
+LOAD ./src/FW_Drivers/FW_LCD.o
+LOAD ./src/FW_Drivers/FW_SSP1.o
+LOAD ./src/FW_Drivers/FW_Systick.o
+LOAD ./src/FW_Drivers/FW_nRF.o
+LOAD ./src/FW_Drivers/KitInfo2FW_Teclado.o
+LOAD ./src/Aplicacion.o
+LOAD ./src/crp.o
+LOAD ./src/test_RF.o
+START GROUP
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000     0x1898
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x1898 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x34 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x1898 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000034 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x118 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x140 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e4                NMI_Handler
+                0x000001ec                HardFault_Handler
+                0x000001f4                MemManage_Handler
+                0x000001fc                BusFault_Handler
+                0x00000204                UsageFault_Handler
+                0x0000020c                SVC_Handler
+                0x00000214                DebugMon_Handler
+                0x0000021c                PendSV_Handler
+                0x0000022c                UART1_IRQHandler
+                0x0000022c                EINT3_IRQHandler
+                0x0000022c                CANActivity_IRQHandler
+                0x0000022c                TIMER3_IRQHandler
+                0x0000022c                UART0_IRQHandler
+                0x0000022c                USBActivity_IRQHandler
+                0x0000022c                EINT2_IRQHandler
+                0x0000022c                IntDefaultHandler
+                0x0000022c                PLL0_IRQHandler
+                0x0000022c                I2C0_IRQHandler
+                0x0000022c                PLL1_IRQHandler
+                0x0000022c                I2C1_IRQHandler
+                0x0000022c                I2S_IRQHandler
+                0x0000022c                I2C2_IRQHandler
+                0x0000022c                RTC_IRQHandler
+                0x0000022c                TIMER0_IRQHandler
+                0x0000022c                SPI_IRQHandler
+                0x0000022c                RIT_IRQHandler
+                0x0000022c                EINT1_IRQHandler
+                0x0000022c                TIMER1_IRQHandler
+                0x0000022c                UART2_IRQHandler
+                0x0000022c                ADC_IRQHandler
+                0x0000022c                USB_IRQHandler
+                0x0000022c                BOD_IRQHandler
+                0x0000022c                PWM1_IRQHandler
+                0x0000022c                WDT_IRQHandler
+                0x0000022c                SSP0_IRQHandler
+                0x0000022c                QEI_IRQHandler
+                0x0000022c                EINT0_IRQHandler
+                0x0000022c                CAN_IRQHandler
+                0x0000022c                DMA_IRQHandler
+                0x0000022c                TIMER2_IRQHandler
+                0x0000022c                UART3_IRQHandler
+                0x0000022c                MCPWM_IRQHandler
+                0x0000022c                ENET_IRQHandler
+ *(.text*)
+ .text.Display  0x00000234       0x68 ./src/Primitivas/PR_7Seg.o
+                0x00000234                Display
+ .text.ReadRx   0x0000029c       0x74 ./src/Primitivas/PR_SSP1.o
+                0x0000029c                ReadRx
+ .text.EmptyRxFIFO
+                0x00000310       0x2c ./src/Primitivas/PR_SSP1.o
+                0x00000310                EmptyRxFIFO
+ .text.TmrStart
+                0x0000033c       0x94 ./src/Primitivas/PR_Timers.o
+                0x0000033c                TmrStart
+ .text.AnalizarTimer
+                0x000003d0       0x70 ./src/Primitivas/PR_Timers.o
+                0x000003d0                AnalizarTimer
+ .text.RWnRF    0x00000440       0xc8 ./src/Primitivas/PR_nRF.o
+                0x00000440                RWnRF
+ .text.Inicializar_Teclado
+                0x00000508       0x8c ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                0x00000508                Inicializar_Teclado
+ .text.Inicializar_Relay
+                0x00000594       0x58 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                0x00000594                Inicializar_Relay
+ .text.Inicializar_RGB
+                0x000005ec       0x64 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                0x000005ec                Inicializar_RGB
+ .text.Inicializar_LEDs
+                0x00000650       0x64 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                0x00000650                Inicializar_LEDs
+ .text.Inicializar_Buzzer
+                0x000006b4       0x28 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                0x000006b4                Inicializar_Buzzer
+ .text.Inicializar_Display7s
+                0x000006dc       0x80 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+                0x000006dc                Inicializar_Display7s
+ .text.Inicializar_TecladoMatricial
+                0x0000075c       0x6c ./src/FW_Inicializaciones/FW_InitExpansion3.o
+                0x0000075c                Inicializar_TecladoMatricial
+ .text.Inicializar_Expansion3
+                0x000007c8       0x10 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+                0x000007c8                Inicializar_Expansion3
+ .text.InicSysTick
+                0x000007d8       0x40 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x000007d8                InicSysTick
+ .text.InicializarKit
+                0x00000818       0x34 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+                0x00000818                InicializarKit
+ .text.InicPLL  0x0000084c      0x140 ./src/FW_Inicializaciones/FW_InitOscilador.o
+                0x0000084c                InicPLL
+ .text.Inicializar_SSP1
+                0x0000098c      0x10c ./src/FW_Inicializaciones/FW_InitSSP.o
+                0x0000098c                Inicializar_SSP1
+ .text.Init_nRF
+                0x00000a98       0x44 ./src/FW_Inicializaciones/FW_Init_nRF.o
+                0x00000a98                Init_nRF
+ .text.BarridoDisplay
+                0x00000adc       0xec ./src/FW_Drivers/FW_7Seg.o
+                0x00000adc                BarridoDisplay
+ .text.SetPINSEL
+                0x00000bc8       0x88 ./src/FW_Drivers/FW_GPIO.o
+                0x00000bc8                SetPINSEL
+ .text.SetPINMODE
+                0x00000c50       0x7c ./src/FW_Drivers/FW_GPIO.o
+                0x00000c50                SetPINMODE
+ .text.SetDIR   0x00000ccc       0x70 ./src/FW_Drivers/FW_GPIO.o
+                0x00000ccc                SetDIR
+ .text.SetPIN   0x00000d3c       0x74 ./src/FW_Drivers/FW_GPIO.o
+                0x00000d3c                SetPIN
+ .text.GetPIN   0x00000db0       0x4c ./src/FW_Drivers/FW_GPIO.o
+                0x00000db0                GetPIN
+ .text.InitLCD  0x00000dfc       0xc0 ./src/FW_Drivers/FW_LCD.o
+                0x00000dfc                InitLCD
+ .text.ConfigLCD
+                0x00000ebc      0x114 ./src/FW_Drivers/FW_LCD.o
+                0x00000ebc                ConfigLCD
+ .text.PushLCD  0x00000fd0       0xc4 ./src/FW_Drivers/FW_LCD.o
+                0x00000fd0                PushLCD
+ .text.PopLCD   0x00001094       0x68 ./src/FW_Drivers/FW_LCD.o
+                0x00001094                PopLCD
+ .text.Dato_LCD
+                0x000010fc       0xa8 ./src/FW_Drivers/FW_LCD.o
+                0x000010fc                Dato_LCD
+ .text.DisplayLCD
+                0x000011a4       0x6c ./src/FW_Drivers/FW_LCD.o
+                0x000011a4                DisplayLCD
+ .text.SSP1_IRQHandler
+                0x00001210       0x70 ./src/FW_Drivers/FW_SSP1.o
+                0x00001210                SSP1_IRQHandler
+ .text.SendSSP1
+                0x00001280       0x40 ./src/FW_Drivers/FW_SSP1.o
+                0x00001280                SendSSP1
+ .text.Start_Transmission
+                0x000012c0       0x84 ./src/FW_Drivers/FW_SSP1.o
+                0x000012c0                Start_Transmission
+ .text.ReceiveSSP1
+                0x00001344       0x78 ./src/FW_Drivers/FW_SSP1.o
+                0x00001344                ReceiveSSP1
+ .text.SendReceiveSSP
+                0x000013bc       0x58 ./src/FW_Drivers/FW_SSP1.o
+                0x000013bc                SendReceiveSSP
+ .text.SSP_Status
+                0x00001414       0x7c ./src/FW_Drivers/FW_SSP1.o
+                0x00001414                SSP_Status
+ .text.SysTick_Handler
+                0x00001490       0xd4 ./src/FW_Drivers/FW_Systick.o
+                0x00001490                SysTick_Handler
+ .text.Aplicacion
+                0x00001564      0x2d8 ./src/Aplicacion.o
+                0x00001564                Aplicacion
+ .text.main     0x0000183c       0x10 ./src/test_RF.o
+                0x0000183c                main
+ .text.__weak_main
+                0x0000184c        0x4 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x0000184c                __weak_main
+                0x0000184c                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata        0x00001850       0x45 ./src/Aplicacion.o
+                0x00001898                . = ALIGN (0x4)
+ *fill*         0x00001895        0x3 ff
+
+.glue_7         0x00001898        0x0
+ .glue_7        0x00001898        0x0 linker stubs
+
+.glue_7t        0x00001898        0x0
+ .glue_7t       0x00001898        0x0 linker stubs
+
+.vfp11_veneer   0x00001898        0x0
+ .vfp11_veneer  0x00001898        0x0 linker stubs
+
+.v4_bx          0x00001898        0x0
+ .v4_bx         0x00001898        0x0 linker stubs
+
+.iplt           0x00001898        0x0
+ .iplt          0x00001898        0x0 ./src/Primitivas/KitInfo2PR_Teclado.o
+
+.rel.dyn        0x00001898        0x0
+ .rel.iplt      0x00001898        0x0 ./src/Primitivas/KitInfo2PR_Teclado.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00001898                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00001898                __exidx_end = .
+                0x00001898                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00001898
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000       0x34 load address 0x00001898
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.Tabla_Digitos_BCD_7seg
+                0x10000000        0xa ./src/Primitivas/PR_7Seg.o
+                0x10000000                Tabla_Digitos_BCD_7seg
+ .data.tx_buffer_empty
+                0x1000000a        0x1 ./src/Primitivas/PR_SSP1.o
+                0x1000000a                tx_buffer_empty
+ .data.first_time
+                0x1000000b        0x1 ./src/Primitivas/PR_SSP1.o
+                0x1000000b                first_time
+ .data.decimas.3849
+                0x1000000c        0x1 ./src/FW_Drivers/FW_Systick.o
+ *fill*         0x1000000d        0x3 ff
+ .data.hello    0x10000010        0x6 ./src/Aplicacion.o
+                0x10000010                hello
+ *fill*         0x10000016        0x2 ff
+ .data.master   0x10000018        0xb ./src/Aplicacion.o
+                0x10000018                master
+ *fill*         0x10000023        0x1 ff
+ .data.hola     0x10000024        0x5 ./src/Aplicacion.o
+                0x10000024                hola
+ *fill*         0x10000029        0x3 ff
+ .data.msg_ptr  0x1000002c        0x4 ./src/Aplicacion.o
+                0x1000002c                msg_ptr
+ .data.start    0x10000030        0x1 ./src/Aplicacion.o
+                0x10000030                start
+                0x10000034                . = ALIGN (0x4)
+ *fill*         0x10000031        0x3 ff
+                0x10000034                _edata = .
+
+.igot.plt       0x10000034        0x0 load address 0x000018cc
+ .igot.plt      0x10000034        0x0 ./src/Primitivas/KitInfo2PR_Teclado.o
+
+.bss_RAM2       0x2007c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000034      0x118
+                0x10000034                _bss = .
+ *(.bss*)
+ .bss.tx_buffer_full
+                0x10000034        0x1 ./src/Primitivas/PR_SSP1.o
+                0x10000034                tx_buffer_full
+ *fill*         0x10000035        0x3 
+ .bss.f_ssp1_status
+                0x10000038        0x4 ./src/Primitivas/PR_SSP1.o
+                0x10000038                f_ssp1_status
+ .bss.nRF_Status_Reg
+                0x1000003c        0x1 ./src/Primitivas/PR_nRF.o
+                0x1000003c                nRF_Status_Reg
+ .bss.Dummy     0x1000003d        0x1 ./src/FW_Inicializaciones/FW_InitSSP.o
+                0x1000003d                Dummy
+ .bss.i.3845    0x1000003e        0x1 ./src/FW_Drivers/FW_7Seg.o
+ *fill*         0x1000003f        0x1 
+ .bss.Buffer_LCD
+                0x10000040       0xa0 ./src/FW_Drivers/FW_LCD.o
+                0x10000040                Buffer_LCD
+ .bss.inxInLCD  0x100000e0        0x4 ./src/FW_Drivers/FW_LCD.o
+                0x100000e0                inxInLCD
+ .bss.inxOutLCD
+                0x100000e4        0x4 ./src/FW_Drivers/FW_LCD.o
+                0x100000e4                inxOutLCD
+ .bss.cantidadColaLCD
+                0x100000e8        0x4 ./src/FW_Drivers/FW_LCD.o
+                0x100000e8                cantidadColaLCD
+ .bss.Demora_LCD
+                0x100000ec        0x4 ./src/FW_Drivers/FW_LCD.o
+                0x100000ec                Demora_LCD
+ .bss.f_ssp1_int
+                0x100000f0        0x4 ./src/FW_Drivers/FW_SSP1.o
+                0x100000f0                f_ssp1_int
+ .bss.interrupciones
+                0x100000f4        0x4 ./src/FW_Drivers/FW_SSP1.o
+                0x100000f4                interrupciones
+ .bss.TmrRun    0x100000f8        0x8 ./src/Aplicacion.o
+                0x100000f8                TmrRun
+ .bss.Eventos   0x10000100        0x1 ./src/Aplicacion.o
+                0x10000100                Eventos
+ .bss.led_blink
+                0x10000101        0x1 ./src/Aplicacion.o
+                0x10000101                led_blink
+ .bss.msj       0x10000102        0x1 ./src/Aplicacion.o
+                0x10000102                msj
+ *fill*         0x10000103        0x1 
+ .bss.msg_cad   0x10000104        0x2 ./src/Aplicacion.o
+                0x10000104                msg_cad
+ .bss.estado    0x10000106        0x1 ./src/Aplicacion.o
+                0x10000106                estado
+ *fill*         0x10000107        0x1 
+ .bss.msgDisplay
+                0x10000108        0x6 ./src/test_RF.o
+                0x10000108                msgDisplay
+ .bss.segundos  0x1000010e        0x2 ./src/test_RF.o
+                0x1000010e                segundos
+ .bss.aux       0x10000110        0x4 ./src/test_RF.o
+                0x10000110                aux
+ .bss.Buff_Tx_SSP1
+                0x10000114       0x19 ./src/test_RF.o
+                0x10000114                Buff_Tx_SSP1
+ *fill*         0x1000012d        0x3 
+ .bss.Buff_Rx_SSP1
+                0x10000130       0x19 ./src/test_RF.o
+                0x10000130                Buff_Rx_SSP1
+ .bss.SSP1_RxIn_Idx
+                0x10000149        0x1 ./src/test_RF.o
+                0x10000149                SSP1_RxIn_Idx
+ .bss.SSP1_RxOut_Idx
+                0x1000014a        0x1 ./src/test_RF.o
+                0x1000014a                SSP1_RxOut_Idx
+ .bss.SSP1_TxOut_Idx
+                0x1000014b        0x1 ./src/test_RF.o
+                0x1000014b                SSP1_TxOut_Idx
+ *(COMMON)
+                0x1000014c                . = ALIGN (0x4)
+                0x1000014c                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x1000014c        0x0
+                0x1000014c                _noinit = .
+ *(.noinit*)
+                0x1000014c                . = ALIGN (0x4)
+                0x1000014c                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                [!provide]                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(test_RF.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x1a4e
+ .debug_info    0x00000000       0xd2 ./src/Primitivas/PR_7Seg.o
+ .debug_info    0x000000d2      0x2da ./src/Primitivas/PR_SSP1.o
+ .debug_info    0x000003ac      0x200 ./src/Primitivas/PR_Timers.o
+ .debug_info    0x000005ac       0xc0 ./src/Primitivas/PR_nRF.o
+ .debug_info    0x0000066c       0x94 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_info    0x00000700       0x72 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_info    0x00000772      0x145 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_info    0x000008b7       0x5b ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_info    0x00000912      0x1df ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_info    0x00000af1       0x50 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_info    0x00000b41      0x250 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_info    0x00000d91       0x8f ./src/FW_Drivers/FW_7Seg.o
+ .debug_info    0x00000e20      0x1d5 ./src/FW_Drivers/FW_GPIO.o
+ .debug_info    0x00000ff5      0x228 ./src/FW_Drivers/FW_LCD.o
+ .debug_info    0x0000121d      0x2ef ./src/FW_Drivers/FW_SSP1.o
+ .debug_info    0x0000150c       0xdf ./src/FW_Drivers/FW_Systick.o
+ .debug_info    0x000015eb      0x236 ./src/Aplicacion.o
+ .debug_info    0x00001821      0x22d ./src/test_RF.o
+
+.debug_abbrev   0x00000000      0xc26
+ .debug_abbrev  0x00000000       0xa2 ./src/Primitivas/PR_7Seg.o
+ .debug_abbrev  0x000000a2      0x133 ./src/Primitivas/PR_SSP1.o
+ .debug_abbrev  0x000001d5      0x10d ./src/Primitivas/PR_Timers.o
+ .debug_abbrev  0x000002e2       0x97 ./src/Primitivas/PR_nRF.o
+ .debug_abbrev  0x00000379       0x3a ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_abbrev  0x000003b3       0x3a ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_abbrev  0x000003ed       0xce ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_abbrev  0x000004bb       0x47 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_abbrev  0x00000502       0xcb ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_abbrev  0x000005cd       0x3a ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_abbrev  0x00000607       0xf5 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_abbrev  0x000006fc       0x7e ./src/FW_Drivers/FW_7Seg.o
+ .debug_abbrev  0x0000077a       0x81 ./src/FW_Drivers/FW_GPIO.o
+ .debug_abbrev  0x000007fb      0x127 ./src/FW_Drivers/FW_LCD.o
+ .debug_abbrev  0x00000922      0x120 ./src/FW_Drivers/FW_SSP1.o
+ .debug_abbrev  0x00000a42       0x8c ./src/FW_Drivers/FW_Systick.o
+ .debug_abbrev  0x00000ace       0xc9 ./src/Aplicacion.o
+ .debug_abbrev  0x00000b97       0x8f ./src/test_RF.o
+
+.debug_aranges  0x00000000      0x388
+ .debug_aranges
+                0x00000000       0x20 ./src/Primitivas/PR_7Seg.o
+ .debug_aranges
+                0x00000020       0x30 ./src/Primitivas/PR_SSP1.o
+ .debug_aranges
+                0x00000050       0x40 ./src/Primitivas/PR_Timers.o
+ .debug_aranges
+                0x00000090       0x20 ./src/Primitivas/PR_nRF.o
+ .debug_aranges
+                0x000000b0       0x40 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_aranges
+                0x000000f0       0x30 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_aranges
+                0x00000120       0x28 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_aranges
+                0x00000148       0x20 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_aranges
+                0x00000168       0x20 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_aranges
+                0x00000188       0x20 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_aranges
+                0x000001a8       0x80 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_aranges
+                0x00000228       0x20 ./src/FW_Drivers/FW_7Seg.o
+ .debug_aranges
+                0x00000248       0x48 ./src/FW_Drivers/FW_GPIO.o
+ .debug_aranges
+                0x00000290       0x50 ./src/FW_Drivers/FW_LCD.o
+ .debug_aranges
+                0x000002e0       0x48 ./src/FW_Drivers/FW_SSP1.o
+ .debug_aranges
+                0x00000328       0x20 ./src/FW_Drivers/FW_Systick.o
+ .debug_aranges
+                0x00000348       0x20 ./src/Aplicacion.o
+ .debug_aranges
+                0x00000368       0x20 ./src/test_RF.o
+
+.debug_ranges   0x00000000      0x268
+ .debug_ranges  0x00000000       0x10 ./src/Primitivas/PR_7Seg.o
+ .debug_ranges  0x00000010       0x20 ./src/Primitivas/PR_SSP1.o
+ .debug_ranges  0x00000030       0x30 ./src/Primitivas/PR_Timers.o
+ .debug_ranges  0x00000060       0x10 ./src/Primitivas/PR_nRF.o
+ .debug_ranges  0x00000070       0x30 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_ranges  0x000000a0       0x20 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_ranges  0x000000c0       0x18 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_ranges  0x000000d8       0x10 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_ranges  0x000000e8       0x10 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_ranges  0x000000f8       0x10 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_ranges  0x00000108       0x70 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_ranges  0x00000178       0x10 ./src/FW_Drivers/FW_7Seg.o
+ .debug_ranges  0x00000188       0x38 ./src/FW_Drivers/FW_GPIO.o
+ .debug_ranges  0x000001c0       0x40 ./src/FW_Drivers/FW_LCD.o
+ .debug_ranges  0x00000200       0x38 ./src/FW_Drivers/FW_SSP1.o
+ .debug_ranges  0x00000238       0x10 ./src/FW_Drivers/FW_Systick.o
+ .debug_ranges  0x00000248       0x10 ./src/Aplicacion.o
+ .debug_ranges  0x00000258       0x10 ./src/test_RF.o
+
+.debug_macro    0x00000000      0xfa3
+ .debug_macro   0x00000000       0xb4 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x000000b4       0x40 ./src/Primitivas/PR_7Seg.o
+ .debug_macro   0x000000f4       0xb4 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x000001a8      0x1ca ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x00000372       0x64 ./src/Primitivas/PR_SSP1.o
+ .debug_macro   0x000003d6       0xb4 ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x0000048a      0x16c ./src/Primitivas/PR_Timers.o
+ .debug_macro   0x000005f6       0xa6 ./src/Primitivas/PR_nRF.o
+ .debug_macro   0x0000069c       0xb8 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_macro   0x00000754       0xb8 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_macro   0x0000080c       0xa6 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_macro   0x000008b2       0x23 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_macro   0x000008d5       0xaa ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_macro   0x0000097f       0xa6 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_macro   0x00000a25       0x1d ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_macro   0x00000a42       0xb8 ./src/FW_Drivers/FW_7Seg.o
+ .debug_macro   0x00000afa       0x1a ./src/FW_Drivers/FW_GPIO.o
+ .debug_macro   0x00000b14       0xba ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000bce       0xb2 ./src/FW_Drivers/FW_LCD.o
+ .debug_macro   0x00000c80       0xa6 ./src/FW_Drivers/FW_SSP1.o
+ .debug_macro   0x00000d26       0xa6 ./src/FW_Drivers/FW_Systick.o
+ .debug_macro   0x00000dcc       0xa6 ./src/Aplicacion.o
+ .debug_macro   0x00000e72       0xaf ./src/test_RF.o
+ .debug_macro   0x00000f21       0x82 ./src/test_RF.o
+
+.debug_line     0x00000000     0x1ada
+ .debug_line    0x00000000      0x15f ./src/Primitivas/PR_7Seg.o
+ .debug_line    0x0000015f      0x1a8 ./src/Primitivas/PR_SSP1.o
+ .debug_line    0x00000307      0x1bf ./src/Primitivas/PR_Timers.o
+ .debug_line    0x000004c6      0x171 ./src/Primitivas/PR_nRF.o
+ .debug_line    0x00000637      0x1c4 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_line    0x000007fb      0x191 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_line    0x0000098c      0x17d ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_line    0x00000b09       0xed ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_line    0x00000bf6      0x173 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_line    0x00000d69      0x157 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_line    0x00000ec0       0xe3 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_line    0x00000fa3      0x151 ./src/FW_Drivers/FW_7Seg.o
+ .debug_line    0x000010f4       0xf1 ./src/FW_Drivers/FW_GPIO.o
+ .debug_line    0x000011e5      0x23f ./src/FW_Drivers/FW_LCD.o
+ .debug_line    0x00001424      0x1f9 ./src/FW_Drivers/FW_SSP1.o
+ .debug_line    0x0000161d      0x16c ./src/FW_Drivers/FW_Systick.o
+ .debug_line    0x00001789      0x1b7 ./src/Aplicacion.o
+ .debug_line    0x00001940      0x19a ./src/test_RF.o
+
+.debug_str      0x00000000     0x5a5a
+ .debug_str     0x00000000     0x4d91 ./src/Primitivas/PR_7Seg.o
+                               0x4dfc (size before relaxing)
+ .debug_str     0x00004d91       0xec ./src/Primitivas/PR_SSP1.o
+                               0x4f23 (size before relaxing)
+ .debug_str     0x00004e7d       0x7e ./src/Primitivas/PR_Timers.o
+                               0x4e7a (size before relaxing)
+ .debug_str     0x00004efb       0x3d ./src/Primitivas/PR_nRF.o
+                               0x4de1 (size before relaxing)
+ .debug_str     0x00004f38       0x88 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                               0x4e24 (size before relaxing)
+ .debug_str     0x00004fc0       0x79 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+                               0x4e15 (size before relaxing)
+ .debug_str     0x00005039       0x4d ./src/FW_Inicializaciones/FW_InitKit_principal.o
+                               0x4e61 (size before relaxing)
+ .debug_str     0x00005086       0x36 ./src/FW_Inicializaciones/FW_InitOscilador.o
+                               0x388d (size before relaxing)
+ .debug_str     0x000050bc       0x3f ./src/FW_Inicializaciones/FW_InitSSP.o
+                               0x4e8b (size before relaxing)
+ .debug_str     0x000050fb       0x32 ./src/FW_Inicializaciones/FW_Init_nRF.o
+                               0x4dce (size before relaxing)
+ .debug_str     0x0000512d      0x1d3 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+                               0x2696 (size before relaxing)
+ .debug_str     0x00005300       0x2b ./src/FW_Drivers/FW_7Seg.o
+                               0x4dda (size before relaxing)
+ .debug_str     0x0000532b       0x6c ./src/FW_Drivers/FW_GPIO.o
+                               0x341e (size before relaxing)
+ .debug_str     0x00005397       0xc0 ./src/FW_Drivers/FW_LCD.o
+                               0x4e80 (size before relaxing)
+ .debug_str     0x00005457       0x94 ./src/FW_Drivers/FW_SSP1.o
+                               0x4f5e (size before relaxing)
+ .debug_str     0x000054eb       0x47 ./src/FW_Drivers/FW_Systick.o
+                               0x4e18 (size before relaxing)
+ .debug_str     0x00005532       0x6b ./src/Aplicacion.o
+                               0x4e5c (size before relaxing)
+ .debug_str     0x0000559d      0x4bd ./src/test_RF.o
+                               0x52e8 (size before relaxing)
+
+.comment        0x00000000       0xdc
+ .comment       0x00000000       0x6e ./src/Primitivas/PR_7Seg.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/Primitivas/PR_SSP1.o
+ .comment       0x0000006e       0x6f ./src/Primitivas/PR_Timers.o
+ .comment       0x0000006e       0x6f ./src/Primitivas/PR_nRF.o
+ .comment       0x0000006e       0x6f ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .comment       0x0000006e       0x6f ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .comment       0x0000006e       0x6f ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .comment       0x0000006e       0x6f ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .comment       0x0000006e       0x6f ./src/FW_Inicializaciones/FW_InitSSP.o
+ .comment       0x0000006e       0x6f ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .comment       0x0000006e       0x6f ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .comment       0x0000006e       0x6f ./src/FW_Drivers/FW_7Seg.o
+ .comment       0x0000006e       0x6f ./src/FW_Drivers/FW_GPIO.o
+ .comment       0x0000006e       0x6f ./src/FW_Drivers/FW_LCD.o
+ .comment       0x0000006e       0x6f ./src/FW_Drivers/FW_SSP1.o
+ .comment       0x0000006e       0x6f ./src/FW_Drivers/FW_Systick.o
+ .comment       0x0000006e       0x6f ./src/Aplicacion.o
+ .comment       0x0000006e       0x6f ./src/test_RF.o
+ .comment       0x0000006e       0x6e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                                 0x6f (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/Primitivas/PR_7Seg.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/Primitivas/PR_SSP1.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/Primitivas/PR_Timers.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/Primitivas/PR_nRF.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .ARM.attributes
+                0x00000132       0x33 ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .ARM.attributes
+                0x00000165       0x33 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .ARM.attributes
+                0x00000198       0x33 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .ARM.attributes
+                0x000001cb       0x33 ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .ARM.attributes
+                0x000001fe       0x33 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x00000231       0x33 ./src/FW_Drivers/FW_7Seg.o
+ .ARM.attributes
+                0x00000264       0x33 ./src/FW_Drivers/FW_GPIO.o
+ .ARM.attributes
+                0x00000297       0x33 ./src/FW_Drivers/FW_LCD.o
+ .ARM.attributes
+                0x000002ca       0x33 ./src/FW_Drivers/FW_SSP1.o
+ .ARM.attributes
+                0x000002fd       0x33 ./src/FW_Drivers/FW_Systick.o
+ .ARM.attributes
+                0x00000330       0x33 ./src/Aplicacion.o
+ .ARM.attributes
+                0x00000363       0x33 ./src/test_RF.o
+ .ARM.attributes
+                0x00000396       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x8a0
+ .debug_frame   0x00000000       0x38 ./src/Primitivas/PR_7Seg.o
+ .debug_frame   0x00000038       0x78 ./src/Primitivas/PR_SSP1.o
+ .debug_frame   0x000000b0       0xd0 ./src/Primitivas/PR_Timers.o
+ .debug_frame   0x00000180       0x38 ./src/Primitivas/PR_nRF.o
+ .debug_frame   0x000001b8       0x9c ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_frame   0x00000254       0x64 ./src/FW_Inicializaciones/FW_InitExpansion3.o
+ .debug_frame   0x000002b8       0x4c ./src/FW_Inicializaciones/FW_InitKit_principal.o
+ .debug_frame   0x00000304       0x30 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_frame   0x00000334       0x34 ./src/FW_Inicializaciones/FW_InitSSP.o
+ .debug_frame   0x00000368       0x2c ./src/FW_Inicializaciones/FW_Init_nRF.o
+ .debug_frame   0x00000394      0x170 ./src/FW_Inicializaciones/cr_startup_lpc176x.o
+ .debug_frame   0x00000504       0x2c ./src/FW_Drivers/FW_7Seg.o
+ .debug_frame   0x00000530      0x100 ./src/FW_Drivers/FW_GPIO.o
+ .debug_frame   0x00000630      0x110 ./src/FW_Drivers/FW_LCD.o
+ .debug_frame   0x00000740       0xd0 ./src/FW_Drivers/FW_SSP1.o
+ .debug_frame   0x00000810       0x2c ./src/FW_Drivers/FW_Systick.o
+ .debug_frame   0x0000083c       0x38 ./src/Aplicacion.o
+ .debug_frame   0x00000874       0x2c ./src/test_RF.o
