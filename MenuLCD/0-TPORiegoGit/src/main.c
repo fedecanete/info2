@@ -30,7 +30,7 @@ int main(void) {
 	Displays7seg(Temperatura, DSP_TEMPERATURA);
 
     while(1) {
-    	Menu_LCD (Teclado(), Temperatura, Humedad_A, Humedad_T);
+    	Menu_LCD (Teclado());
     }
 
     return 0 ;

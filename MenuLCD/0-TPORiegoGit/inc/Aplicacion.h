@@ -20,8 +20,7 @@
 
 
 uint8_t Teclado (void);
-void Menu_LCD (uint8_t, uint8_t, uint8_t, uint8_t);
-
+void Menu_LCD (uint8_t, uint8_t, uint8_t, uint8_t
 //Defines de  Teclado combinado con LCD
 #define 	T_SUMAR			1
 #define 	T_RESTAR		2

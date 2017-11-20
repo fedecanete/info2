@@ -21,7 +21,11 @@
 
 #include "Aplicacion.h"
 
-void Menu_LCD (uint8_t TeclaPulsada, uint8_t Temperatura, uint8_t Humedad_A, uint8_t Humedad_T) {
+extern volatile uint8_t Humedad_T;
+extern volatile uint8_t	Temperatura;
+extern volatile uint8_t Humedad;
+
+void Menu_LCD (uint8_t TeclaPulsada) {
 
 	static uint8_t Pantalla=Pantalla_Menu;		// Contiene la pantalla actual
 	static uint8_t PantallaAnt=Pantalla_Menu; 	// Contiene la pantalla anterior

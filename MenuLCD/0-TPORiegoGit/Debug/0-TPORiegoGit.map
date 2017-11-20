@@ -1,6 +1,6 @@
 Archive member included to satisfy reference by file (symbol)
 
-c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
                               ./src/FW_Drivers/cr_startup_lpc175x_6x.o (__main)
 
 Discarded input sections
@@ -298,8 +298,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x1a ./src/FW_Drivers/crp.o
  .debug_macro   0x00000000      0x886 ./src/FW_Drivers/crp.o
  .debug_macro   0x00000000       0x34 ./src/FW_Drivers/crp.o
- .debug_line    0x00000000       0x83 ./src/FW_Drivers/crp.o
- .debug_str     0x00000000     0x25b6 ./src/FW_Drivers/crp.o
+ .debug_line    0x00000000       0x8a ./src/FW_Drivers/crp.o
+ .debug_str     0x00000000     0x25be ./src/FW_Drivers/crp.o
  .comment       0x00000000       0x6f ./src/FW_Drivers/crp.o
  .ARM.attributes
                 0x00000000       0x33 ./src/FW_Drivers/crp.o
@@ -325,9 +325,9 @@ Discarded input sections
  .debug_macro   0x00000000       0x4c ./src/main.o
  .debug_macro   0x00000000      0x178 ./src/main.o
  .debug_macro   0x00000000       0x22 ./src/main.o
- .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
- .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
- .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
 Memory Configuration
 
@@ -357,8 +357,8 @@ LOAD ./src/FW_Drivers/cr_startup_lpc175x_6x.o
 LOAD ./src/FW_Drivers/crp.o
 LOAD ./src/main.o
 START GROUP
-LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
-LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a
+LOAD e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a
 END GROUP
                 0x00000000                __base_MFlash512 = 0x0
                 0x00000000                __base_Flash = 0x0
@@ -558,7 +558,7 @@ END GROUP
  .text.main     0x00001a88       0x50 ./src/main.o
                 0x00001a88                main
  .text.__weak_main
-                0x00001ad8        0x4 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x00001ad8        0x4 e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
                 0x00001ad8                __weak_main
                 0x00001ad8                __main
  *(.rodata .rodata.* .constdata .constdata.*)
@@ -834,57 +834,57 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .debug_macro   0x00001852       0x72 ./src/main.o
  .debug_macro   0x000018c4       0x82 ./src/main.o
 
-.debug_line     0x00000000     0x1648
- .debug_line    0x00000000      0x12d ./src/Primitivas/PR_7Seg.o
- .debug_line    0x0000012d      0x22f ./src/Primitivas/PR_MenuLCD.o
- .debug_line    0x0000035c      0x122 ./src/Primitivas/PR_Teclado5x1.o
- .debug_line    0x0000047e      0x148 ./src/FW_Inicializaciones/FW_InicDisplays7seg.o
- .debug_line    0x000005c6      0x15f ./src/FW_Inicializaciones/FW_InicLCD.o
- .debug_line    0x00000725      0x12b ./src/FW_Inicializaciones/FW_InicSysTick.o
- .debug_line    0x00000850      0x137 ./src/FW_Inicializaciones/FW_InicTeclado5x1.o
- .debug_line    0x00000987      0x135 ./src/FW_Inicializaciones/FW_InitBaseBoard.o
- .debug_line    0x00000abc       0xfb ./src/FW_Inicializaciones/FW_InitOscilador.o
- .debug_line    0x00000bb7      0x130 ./src/FW_Drivers/FW_7Seg.o
- .debug_line    0x00000ce7      0x195 ./src/FW_Drivers/FW_GPIO.o
- .debug_line    0x00000e7c      0x2db ./src/FW_Drivers/FW_LCD.o
- .debug_line    0x00001157      0x122 ./src/FW_Drivers/FW_Systick.o
- .debug_line    0x00001279      0x186 ./src/FW_Drivers/FW_Teclado5x1.o
- .debug_line    0x000013ff       0xdf ./src/FW_Drivers/cr_startup_lpc175x_6x.o
- .debug_line    0x000014de      0x16a ./src/main.o
+.debug_line     0x00000000     0x16c8
+ .debug_line    0x00000000      0x135 ./src/Primitivas/PR_7Seg.o
+ .debug_line    0x00000135      0x237 ./src/Primitivas/PR_MenuLCD.o
+ .debug_line    0x0000036c      0x12a ./src/Primitivas/PR_Teclado5x1.o
+ .debug_line    0x00000496      0x150 ./src/FW_Inicializaciones/FW_InicDisplays7seg.o
+ .debug_line    0x000005e6      0x167 ./src/FW_Inicializaciones/FW_InicLCD.o
+ .debug_line    0x0000074d      0x133 ./src/FW_Inicializaciones/FW_InicSysTick.o
+ .debug_line    0x00000880      0x13f ./src/FW_Inicializaciones/FW_InicTeclado5x1.o
+ .debug_line    0x000009bf      0x13d ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+ .debug_line    0x00000afc      0x103 ./src/FW_Inicializaciones/FW_InitOscilador.o
+ .debug_line    0x00000bff      0x138 ./src/FW_Drivers/FW_7Seg.o
+ .debug_line    0x00000d37      0x19d ./src/FW_Drivers/FW_GPIO.o
+ .debug_line    0x00000ed4      0x2e4 ./src/FW_Drivers/FW_LCD.o
+ .debug_line    0x000011b8      0x12a ./src/FW_Drivers/FW_Systick.o
+ .debug_line    0x000012e2      0x18e ./src/FW_Drivers/FW_Teclado5x1.o
+ .debug_line    0x00001470       0xdf ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+ .debug_line    0x0000154f      0x179 ./src/main.o
 
-.debug_str      0x00000000     0x51b0
- .debug_str     0x00000000     0x4689 ./src/Primitivas/PR_7Seg.o
-                               0x4713 (size before relaxing)
- .debug_str     0x00004689       0x9b ./src/Primitivas/PR_MenuLCD.o
-                               0x46d1 (size before relaxing)
- .debug_str     0x00004724       0x30 ./src/Primitivas/PR_Teclado5x1.o
-                               0x466e (size before relaxing)
- .debug_str     0x00004754       0x4a ./src/FW_Inicializaciones/FW_InicDisplays7seg.o
+.debug_str      0x00000000     0x51b8
+ .debug_str     0x00000000     0x4691 ./src/Primitivas/PR_7Seg.o
+                               0x471b (size before relaxing)
+ .debug_str     0x00004691       0x9b ./src/Primitivas/PR_MenuLCD.o
+                               0x46d9 (size before relaxing)
+ .debug_str     0x0000472c       0x30 ./src/Primitivas/PR_Teclado5x1.o
+                               0x4676 (size before relaxing)
+ .debug_str     0x0000475c       0x4a ./src/FW_Inicializaciones/FW_InicDisplays7seg.o
+                               0x4680 (size before relaxing)
+ .debug_str     0x000047a6       0x3f ./src/FW_Inicializaciones/FW_InicLCD.o
+                               0x4675 (size before relaxing)
+ .debug_str     0x000047e5       0x38 ./src/FW_Inicializaciones/FW_InicSysTick.o
+                               0x46e6 (size before relaxing)
+ .debug_str     0x0000481d       0x43 ./src/FW_Inicializaciones/FW_InicTeclado5x1.o
+                               0x4679 (size before relaxing)
+ .debug_str     0x00004860       0x3d ./src/FW_Inicializaciones/FW_InitBaseBoard.o
+                               0x4673 (size before relaxing)
+ .debug_str     0x0000489d       0x36 ./src/FW_Inicializaciones/FW_InitOscilador.o
+                               0x3a56 (size before relaxing)
+ .debug_str     0x000048d3       0x3b ./src/FW_Drivers/FW_7Seg.o
+                               0x4684 (size before relaxing)
+ .debug_str     0x0000490e       0x76 ./src/FW_Drivers/FW_GPIO.o
+                               0x46bd (size before relaxing)
+ .debug_str     0x00004984      0x181 ./src/FW_Drivers/FW_LCD.o
+                               0x47d4 (size before relaxing)
+ .debug_str     0x00004b05       0x2f ./src/FW_Drivers/FW_Systick.o
                                0x4678 (size before relaxing)
- .debug_str     0x0000479e       0x3f ./src/FW_Inicializaciones/FW_InicLCD.o
-                               0x466d (size before relaxing)
- .debug_str     0x000047dd       0x38 ./src/FW_Inicializaciones/FW_InicSysTick.o
-                               0x46de (size before relaxing)
- .debug_str     0x00004815       0x43 ./src/FW_Inicializaciones/FW_InicTeclado5x1.o
-                               0x4671 (size before relaxing)
- .debug_str     0x00004858       0x3d ./src/FW_Inicializaciones/FW_InitBaseBoard.o
-                               0x466b (size before relaxing)
- .debug_str     0x00004895       0x36 ./src/FW_Inicializaciones/FW_InitOscilador.o
-                               0x3a4e (size before relaxing)
- .debug_str     0x000048cb       0x3b ./src/FW_Drivers/FW_7Seg.o
-                               0x467c (size before relaxing)
- .debug_str     0x00004906       0x76 ./src/FW_Drivers/FW_GPIO.o
-                               0x46b5 (size before relaxing)
- .debug_str     0x0000497c      0x181 ./src/FW_Drivers/FW_LCD.o
-                               0x47cc (size before relaxing)
- .debug_str     0x00004afd       0x2f ./src/FW_Drivers/FW_Systick.o
-                               0x4670 (size before relaxing)
- .debug_str     0x00004b2c       0x6b ./src/FW_Drivers/FW_Teclado5x1.o
-                               0x46b0 (size before relaxing)
- .debug_str     0x00004b97      0x1bd ./src/FW_Drivers/cr_startup_lpc175x_6x.o
-                               0x269e (size before relaxing)
- .debug_str     0x00004d54      0x45c ./src/main.o
-                               0x4ae1 (size before relaxing)
+ .debug_str     0x00004b34       0x6b ./src/FW_Drivers/FW_Teclado5x1.o
+                               0x46b8 (size before relaxing)
+ .debug_str     0x00004b9f      0x1bd ./src/FW_Drivers/cr_startup_lpc175x_6x.o
+                               0x26a6 (size before relaxing)
+ .debug_str     0x00004d5c      0x45c ./src/main.o
+                               0x4ae9 (size before relaxing)
 
 .comment        0x00000000       0xdc
  .comment       0x00000000       0x6e ./src/Primitivas/PR_7Seg.o
@@ -904,7 +904,7 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .comment       0x0000006e       0x6f ./src/FW_Drivers/FW_Teclado5x1.o
  .comment       0x0000006e       0x6f ./src/FW_Drivers/cr_startup_lpc175x_6x.o
  .comment       0x0000006e       0x6f ./src/main.o
- .comment       0x0000006e       0x6e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .comment       0x0000006e       0x6e e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
                                  0x6f (size before relaxing)
 
 .ARM.attributes
@@ -942,7 +942,7 @@ OUTPUT(0-TPORiegoGit.axf elf32-littlearm)
  .ARM.attributes
                 0x000002fd       0x33 ./src/main.o
  .ARM.attributes
-                0x00000330       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x00000330       0x33 e:/lpcxpresso/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
 .debug_frame    0x00000000      0x7a8
  .debug_frame   0x00000000       0x38 ./src/Primitivas/PR_7Seg.o

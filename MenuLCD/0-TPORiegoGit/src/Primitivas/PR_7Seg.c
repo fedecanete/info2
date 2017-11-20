@@ -8,7 +8,7 @@
 
 #include "Aplicacion.h"
 
-extern volatile uint8_t msgDisplay[DIGITOS];			//!< Buffer de display
+extern volatile uint8_t msgDisplay[];			//!< Buffer de display
 /**
 Tabla de conversion bcd a 7 segmentos
 	Codigo bcd		a	b	c	d	e	f	g   dp
