@@ -10,7 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include src/Primitivas/subdir.mk
 -include src/FW_Inicializaciones/subdir.mk
--include src/FW_Drivers/subdir.mk
+-include src/Drivers/subdir.mk
 -include src/subdir.mk
 -include subdir.mk
 -include objects.mk

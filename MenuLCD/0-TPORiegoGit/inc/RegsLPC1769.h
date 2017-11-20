@@ -115,7 +115,7 @@
 
 
 //-----------------------------------------------------------------------------
-// NVIC
+// Registros del NVIC
 //-----------------------------------------------------------------------------
 
 	#define		ISER 		( ( __RW uint32_t  * ) 0xE000E100UL )
@@ -154,7 +154,7 @@
 
 
 //-----------------------------------------------------------------------------
-// Interrupciones Externas
+// Registros de Interrupciones Externas
 //-----------------------------------------------------------------------------
 	#define		EXTINT_ 	( ( __RW uint32_t  * ) 0x400FC140UL )
 	#define		EXTINT		EXTINT_[0]
@@ -172,7 +172,7 @@
 
 
 //-----------------------------------------------------------------------------
-// Interrupciones Externas GPIO
+// Resgistros de Interrupciones Externas GPIO
 //-----------------------------------------------------------------------------
 	#define		IOIntStatus_ 		( ( __RW uint32_t  * ) 0x40028080UL )
 	#define		IOIntStatus		IOIntStatus_[0]
@@ -209,6 +209,61 @@
 	#define		IO2IntEnF_ 		( ( __RW uint32_t  * ) 0x400280B4UL )
 	#define		IO2IntEnF		IO2IntEnF_[0]
 
+//-----------------------------------------------------------------------------
+// Registros del Clock, PLL, PCONP, etc
+//-----------------------------------------------------------------------------
+
+	//////////////Registros del CLOCK y de sistema/////////////////
+	//0x400FC1A0UL: Registro de control de sistema y registro de status:
+	#define		DIR_SCS			( (__RW uint32_t *) 0x400FC1A0UL)
+	//0x400FC104UL: Registro de configuracion del clock:
+	#define		DIR_CCLKCFG		( (__RW uint32_t *) 0x400FC104UL)
+	//0x400FC10CUL: Registro de seleccion del clock:
+	#define		DIR_CLKSRCSEL		( (__RW uint32_t *) 0x400FC10CUL)
+	//0x400FC1C8UL: Clock Output Config register:
+	#define		DIR_CLKOUTCFG		( (__RW uint32_t *) 0x400FC1C8UL)
+	//0x400FC000UL: Flash access configuration:
+	#define		DIR_FLASHCFG		( (__RW uint32_t *) 0x400FC000UL)
+
+	/////////////////Registros de los PLL///////////////////////////
+	//0x400FC080UL: Registro de control del PLL0:
+	#define		DIR_PLL0CON		( (__RW uint32_t *) 0x400FC080UL)
+	//0x400FC084UL: Registro de configuracion del PLL0:
+	#define		DIR_PLL0CFG		( (__RW uint32_t *) 0x400FC084UL)
+	//0x400FC088UL: Registro de estado del PLL0:
+	#define		DIR_PLL0STAT		( (__RW uint32_t *) 0x400FC088UL)
+	//0x400FC08CUL: Registro de control del PLL0:
+	#define		DIR_PLL0FEED		( (__RW uint32_t *) 0x400FC08CUL)
+	//0x400FC0A0UL: Registro de control del PLL1:
+	#define		DIR_PLL1CON		( (__RW uint32_t *) 0x400FC0A0UL)
+	//0x400FC0A4UL: Registro de configuracion del PLL1:
+	#define		DIR_PLL1CFG		( (__RW uint32_t *) 0x400FC0A4UL)
+	//0x400FC0A8UL: Registro de estado del PLL1:
+	#define		DIR_PLL1STAT		( (__RW uint32_t *) 0x400FC0A8UL)
+	//0x400FC0ACUL: Registro de control del PLL1:
+	#define		DIR_PLL1FEED		( (__RW uint32_t *) 0x400FC0ACUL)
+
+	//Registro de status y configuracion del sistema:
+	#define		SCS		DIR_SCS[0]
+	#define 	FLASHCFG	DIR_FLASHCFG[0]
+
+	//Registros de control del CLOCK:
+	#define		CCLKCFG		DIR_CCLKCFG[0]
+	#define		CLKSRCSEL	DIR_CLKSRCSEL[0]
+	#define		CLKOUTCFG	DIR_CLKOUTCFG[0]
+
+	//PLL0:
+	#define		PLL0CON		DIR_PLL0CON[0]
+	#define		PLL0CFG		DIR_PLL0CFG[0]
+	#define		PLL0STAT	DIR_PLL0STAT[0]
+	#define		PLL0FEED	DIR_PLL0FEED[0]
+
+	//PLL1:
+	#define		PLL1CON		DIR_PLL1CON[0]
+	#define		PLL1CFG		DIR_PLL1CFG[0]
+	#define		PLL1STAT	DIR_PLL1STAT[0]
+	#define		PLL1FEED	DIR_PLL1FEED[0]
+
 
 	//!< ///////////////////   PCONP   //////////////////////////
 	//!<  Power Control for Peripherals register (PCONP - 0x400F C0C4) [pag. 62 user manual LPC1769]
@@ -225,8 +280,11 @@
 	#define		PCLKSEL1	PCLKSEL[1]
 
 
-	//!< /////////////		SYSTICK		///////////////////////////
-	//!< Tipo de dato específico para manejar el SYSTICK
+//-----------------------------------------------------------------------------
+// Registros del Systick
+//-----------------------------------------------------------------------------
+
+	// Tipo de dato específico para manejar el SYSTICK:
 	typedef struct
 	{
 		union{
@@ -260,6 +318,9 @@
 	#define 	N 		1	//Si N=1, Systick interrumpe cada 10ms.
 
 
+//-----------------------------------------------------------------------------
+// Registros de Timers
+//-----------------------------------------------------------------------------
 	//!< /////////////		TIMER0		///////////////////////////
 	#define		TIMER0			( ( __RW uint32_t  * ) 0x40004000UL )
 
@@ -303,7 +364,41 @@
 		#define		CIS		2
 	//!< /////////////		FIN TIMER0		///////////////////////////
 
-
+//-----------------------------------------------------------------------------
+// Registros del RTC
+//-----------------------------------------------------------------------------
+	#define		RTC 			(( __RW uint32_t  * ) 0x40024000UL )
+	#define		RTCILR			RTC[0]
+	#define		RTCCCR			RTC[2]
+	#define		RTCCIIR			RTC[3]
+	#define		RTCAMR			RTC[4]
+	#define		RTC_AUX			RTC[23]
+	#define		RTC_AUXEN		RTC[22]
+	#define		RTCCTIME0		RTC[5]
+	#define		RTCCTIME1		RTC[6]
+	#define		RTCCTIME2		RTC[7]
+	#define		RTCSEC			RTC[8]
+	#define		RTCMIN			RTC[9]
+	#define		RTCHOUR			RTC[10]
+	#define		RTCDOM			RTC[11]
+	#define		RTCDOW			RTC[12]
+	#define		RTCDOY			RTC[13]
+	#define		RTCMONTH		RTC[14]
+	#define		RTCYEAR			RTC[15]
+	#define		RTCCALIBRATION	RTC[16]
+	#define		RTCGPREG0		RTC[17]
+	#define		RTCGPREG1		RTC[18]
+	#define		RTCGPREG2		RTC[19]
+	#define		RTCGPREG3		RTC[20]
+	#define		RTCGPREG4		RTC[21]
+	#define		RTCALSEC		RTC[24]
+	#define		RTCALMIN		RTC[25]
+	#define		RTCALHOUR		RTC[26]
+	#define		RTCALDOM		RTC[27]
+	#define		RTCALDOW		RTC[28]
+	#define		RTCALDOY		RTC[29]
+	#define		RTCALMON		RTC[30]
+	#define		RTCALYEAR		RTC[31]
 
 	//!< /////////////		UARTs		///////////////////////////
 	//0x40010000UL : Registro de recepcion de la UART0:

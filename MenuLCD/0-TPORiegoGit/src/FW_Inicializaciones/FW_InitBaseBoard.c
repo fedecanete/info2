@@ -8,6 +8,7 @@ void InicializarKit ( void )
 	Inicializar_Teclado();
 	Inicializar_Displays7seg();
 	Inic_LCD();
+	Inic_RTC();
 
 	SetPINSEL (RGBB, PINSEL_GPIO);
 	SetPINSEL (RGBG, PINSEL_GPIO);

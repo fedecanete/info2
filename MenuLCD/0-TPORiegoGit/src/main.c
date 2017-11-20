@@ -17,20 +17,25 @@
 
 volatile uint8_t msgDisplay[DIGITOS];			//!< Buffer del display
 volatile uint8_t buffKey;						//!< Buffer del teclado
-volatile uint16_t DemoraLCD;
-volatile uint8_t Temperatura=24;
-volatile uint8_t Humedad_T=80;
-volatile uint8_t Humedad_A=53;
+volatile uint16_t DemoraLCD;					//!< Demora LCD por Systick
+volatile uint8_t Temperatura=24;				//!< Temperatura del ambiente en ºC
+volatile uint8_t Humedad_T=80;					//!< Humedad de la tierra (%)
+volatile uint8_t Humedad_A=53;					//!< Humedad del ambiente (%)
+volatile uint8_t flag_RiegoAut;					//!< Flag de interrupción por alarma (RTC)
+volatile uint8_t flag_IntMinutos;				//!< Flag de interrupción por incrementos del contador minutos (RTC)
 
 int main(void) {
 
 
 	InicializarKit ();
-	Displays7seg(Humedad_T, DSP_HUMEDAD);
-	Displays7seg(Temperatura, DSP_TEMPERATURA);
 
     while(1) {
     	Menu_LCD (Teclado());
+<<<<<<< HEAD
+=======
+    	Displays7seg(Humedad_T, DSP_HUMEDAD);
+    	Displays7seg(Temperatura, DSP_TEMPERATURA);
+>>>>>>> 2edd432577076170eb85b31bfef12c9d077279d8
     }
 
     return 0 ;

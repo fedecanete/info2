@@ -4,7 +4,7 @@
  */
 
 /*!
-*	\fn Menu_LCD (uint8_t TeclaPulsada, uint8_t Temperatura, uint8_t Humedad_A, uint8_t Humedad_T)
+*	\fn Menu_LCD (uint8_t TeclaPulsada)
 *	\brief Función que permite utilizar el LCD a modo de menú.
 *	\details Esta función recoge los datos de humedad y temperatura para mostrarlos en un LCD de
 *				manera interactiva mediante diferentes pantallas (escrituras) en el LCD, las
@@ -14,16 +14,20 @@
 *	\author Lucas
 *	\date 07.11.2017
 *	\param TeclaPulsada Nos dice la tecla que fue pulsada.
-*	\param Temperatura Nos da el valor de temperatura que registra el módulo DTH11.
-*	\param Humedad_A Nos da el valor de humedad que registra el módulo DTH11 (ambiental).
-*	\param Humedad_T Valor de humedad registrada en la tierra por el módulo HL-69.
 */
 
 #include "Aplicacion.h"
 
+<<<<<<< HEAD
 extern volatile uint8_t Humedad_T;
 extern volatile uint8_t	Temperatura;
 extern volatile uint8_t Humedad;
+=======
+extern volatile uint8_t flag_IntMinutos;
+extern volatile uint8_t Temperatura;
+extern volatile uint8_t Humedad_A;
+extern volatile uint8_t Humedad_T;
+>>>>>>> 2edd432577076170eb85b31bfef12c9d077279d8
 
 void Menu_LCD (uint8_t TeclaPulsada) {
 
@@ -34,7 +38,9 @@ void Menu_LCD (uint8_t TeclaPulsada) {
 	static uint8_t TemperaturaAnt=0; 			// Contiene la temperatura registrada anteriormente a Temperatura
 	static uint8_t HumedadTAnt=0; 				// Contiene la humedad registrada anteriormente a Humedad_T
 
-	//if (PantallaAnt==Pantalla_Menu) -->Actualizacion de Hora/Fecha, RTC, o lo que sea
+	if (PantallaAnt==Pantalla_Menu && flag_IntMinutos) {
+		ActualizarHora(PosCursor);
+	}
 
 	if (PantallaAnt==Pantalla_Tierra && HumedadTAnt!=Humedad_T) {
 		//Si permanezco en Pantalla_Tierra y cambió Humedad_T:

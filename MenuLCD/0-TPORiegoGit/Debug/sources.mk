@@ -14,7 +14,7 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-src/FW_Drivers \
+src/Drivers \
 src/FW_Inicializaciones \
 src/Primitivas \
 src \

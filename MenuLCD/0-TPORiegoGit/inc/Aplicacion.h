@@ -9,18 +9,24 @@
 #define APLICACION_H_
 
 #include "RegsLPC1769.h"
-#include "FW_GPIO.h"
+#include "GPIO.h"
 #include "Oscilador.h"
 #include "KitInfo2_BaseBoard.h"
-#include "FW_Display-Expansion2.h"
-#include "FW_Teclado_5x1.h"
-#include "FW_LCD.h"
+#include "LCD.h"
+#include "Teclado_5x1.h"
+#include "Display-Expansion2.h"
+#include "RTC.h"
 
+<<<<<<< HEAD
 
 
 
 uint8_t Teclado (void);
 void Menu_LCD (uint8_t, uint8_t, uint8_t, uint8_t
+=======
+void Menu_LCD (uint8_t);
+
+>>>>>>> 2edd432577076170eb85b31bfef12c9d077279d8
 //Defines de  Teclado combinado con LCD
 #define 	T_SUMAR			1
 #define 	T_RESTAR		2
