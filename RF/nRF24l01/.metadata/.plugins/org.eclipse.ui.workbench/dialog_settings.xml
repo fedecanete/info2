@@ -20,6 +20,8 @@
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Repositorio\info2\RF\Building functions\test_RF_v2.zip"/>
+			<item value="C:\Repositorio\info2\RF\Building functions\test_RF_v1.zip"/>
 			<item value="C:\Repositorio\info2\RF\Building functions\test_RF.zip"/>
 		</list>
 	</section>
