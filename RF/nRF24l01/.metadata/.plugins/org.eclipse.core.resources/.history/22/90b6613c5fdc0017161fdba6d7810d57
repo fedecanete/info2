@@ -1,0 +1,86 @@
+/*
+ * FW_nRF.c
+ *
+ *  Created on: 18 de nov. de 2017
+ *      Author: fedec
+ */
+#include "Aplicacion.h"
+//SSP1
+extern volatile uint8_t Buff_Tx_SSP1[TOPE_SSP1];		//!< Buffer de Transmisión SPI
+extern volatile uint8_t Buff_Rx_SSP1[TOPE_SSP1];		//!< Buffer de Recepción SPI
+extern volatile uint8_t flags_int_ssp1[4];				//Flags de interrupciones
+extern volatile uint8_t SSP1_RxIn_Idx;				//Índices para el manejo de los buffers
+extern volatile uint8_t SSP1_RxOut_Idx;
+extern volatile uint8_t SSP1_TxIn_Idx;
+extern volatile uint8_t SSP1_TxOut_Idx;
+
+
+volatile uint8_t delay_nRF=0;
+volatile uint8_t listen_delay=0; //ESTA VARIABLE DEBE INCREMENTARSE CON EL SYSTICK
+volatile uint8_t enable_listen=0; //La activa el main y se deshabilita al recibir/time_out
+volatile uint8_t data_avialable=1;//Flag para avisar que se escribio el SPIRxBuff
+
+
+void Transmit_Payload (uint8_t *data_buffer, uint8_t width)
+{
+	RWnRF (FLUSH_TX,0,0,0); //Flushes the TX FIFO from old data
+	RWnRF (W_TX_PAYLOAD, 0, data_buffer, width);
+
+	delay_nRF = DELAY_10ms; //Needs a 10ms delay to work after loading the nrf with the payload
+	while (delay_nRF);
+
+	SetPIN (pin_CE, 1); //CE='1' to transmit the data
+	int i;
+	for (i=200;i>0;i--);//Al least 10us IMPLEMENTAR CON TIMER (así es más o menos 20us)
+	SetPIN (pin_CE, 0);
+
+	delay_nRF = DELAY_10ms;
+	while (delay_nRF);
+
+}
+//NOTA SOBRE TX MODE
+/* Tx mode (ver digrama de estados del manual) se dá cuando hay datos en el Tx FIFO y CE=1
+ * PERO:
+ * " It is important to never keep the nRF24L01 in TX mode for more than 4ms at a time. If the auto
+retransmit is enabled, the nRF24L01 is never in TX mode long enough to disobey this rule."
+ * Así que una forma de evitarlo sería no mantener CE en alto por más de 4ms
+ * (Que generalmente son 20us)
+ *
+ */
+
+void Listen (void)
+{
+	//listen_delay debe INCREMENTARSE con el Systick
+	uint8_t i, aux_reg, aux_buff[5];
+	if (!listen_delay) {
+		SetPIN(pin_CE, 1); //Si es la primera vez, le da el pulso para que escuche
+		enable_listen=1;//cambiar a enable_listen_count;
+	}
+	if (listen_delay==LISTEN_MAX_TIME){
+		SetPIN(pin_CE, 0);
+		listen_delay=0;
+		enable_listen=0;
+
+	}
+	//Leo el FIFO status siempre
+	aux_reg = nRF_GetReg(FIFO_STATUS);
+	if (aux_reg & (1<<1)){//FIFO FULL
+		SetPIN(pin_CE, 0);
+		RWnRF (R_RX_PAYLOAD, 0, aux_buff, 5); //Retiro Payload y lo guardo en aux_buff
+		for (i=0;i<5;i++){
+			//Encapsular en función WriteRx
+			Buff_Rx_SSP1[SSP1_RxOut_Idx] = aux_buff[i];
+			SSP1_RxOut_Idx++;
+			SSP1_RxOut_Idx %= TOPE_SSP1;
+
+		}
+		Clear_Status();
+		listen_delay=0;
+		enable_listen=0;
+		data_avialable=1;
+
+	}else data_avialable=0;
+
+
+}
+

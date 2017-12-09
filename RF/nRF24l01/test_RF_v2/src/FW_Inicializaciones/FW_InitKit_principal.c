@@ -39,7 +39,7 @@ void InicializarKit(void) {
 	InitLCD();
 	Inicializar_SSP1();
 	Init_nRF();
-	nRF_TxRx_Init (TRANSMITTER, 0, 1, 5);
+	nRF_TxRx_Init (TRANSMITTER, 0, 0, 5);
 
 }
 

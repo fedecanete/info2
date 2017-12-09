@@ -14,4 +14,6 @@
 		<item value="org.eclipse.platform:4.5.2.v20160212-1500"/>
 		<item value="org.eclipse.rcp:4.5.2.v20160212-1500"/>
 	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
 </section>
